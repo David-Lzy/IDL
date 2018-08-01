@@ -1,0 +1,30 @@
+Pro Potential_Energy, All_data, Ep_sum_item_x
+    print , 'into Potential_Energy'   
+    common basic_data
+    common Column
+    Ep_temp = fltarr(All_Particle_number,All_Particle_number,All_Frame_number)
+    Ep_ = fltarr(All_Particle_number,All_Frame_number)
+    Ep_sum_item_x = fltarr(All_Frame_number)
+    r  = fltarr(All_Particle_number,All_Particle_number,All_Frame_number)
+    l1 = 0L
+    iparticle = 0L
+    jparticle = 0L
+    dx = abs(All_data(Coordinate_X,l1+iparticle)-(All_data(Coordinate_X,l1+jparticle)))
+    dy = abs(All_data(Coordinate_Y,l1+iparticle)-(All_data(Coordinate_Y,l1+jparticle)))
+    for iframe = 0L , All_Frame_number - 1 do begin
+        l1 = All_Particle_number * iframe
+        for i = 0L, All_Particle_number -1 do begin
+            for iparticle = 0L, All_Particle_number -1 do begin
+                for jparticle = 0L, All_Particle_number -1 do begin
+                    if dx Gt 0.5* Periodic_boundary_X then dx = Periodic_boundary_X - dx
+                    if dy Gt 0.5* Periodic_boundary_Y then dy = Periodic_boundary_Y - dy
+                    r[iparticle,jparticle,iframe] = (dx^2 + dy^2)^0.5
+                    if iparticle Gt jparticle then Ep[iparticle,jparticle,iframe] = (1/(4*3.1415926536))*exp(-kappa*r)/r*(kappa+1/r)               
+                endfor;避免重复计算
+            endfor
+            Ep[iparticle,iframe] = total(Ep_temp[iparticle,*,iframe]) + total(Ep_temp[*,iparticle,iframe])
+        endfor
+        Ep_sum_item_x[iframe] = 0.5*total(All_data[Velocity_X,l1+i]*Ep[i,iframe])
+    endfor 
+    print , 'out Potential_Energy'      
+End

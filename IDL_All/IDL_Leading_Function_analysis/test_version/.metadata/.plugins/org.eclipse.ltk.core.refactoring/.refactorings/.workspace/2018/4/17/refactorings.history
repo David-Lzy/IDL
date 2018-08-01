@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将资源“IDL_Integral_Alpha”重命名为“IDL_All_Alpha”" description="重命名资源“IDL_Integral_Alpha”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/IDL_Integral_Alpha" name="IDL_All_Alpha" stamp="1524820593473" updateReferences="true"/>
+</session>

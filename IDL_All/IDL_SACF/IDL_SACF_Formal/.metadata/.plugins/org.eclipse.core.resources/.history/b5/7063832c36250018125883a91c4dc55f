@@ -1,0 +1,21 @@
+Pro File_Reading , All_data
+    common  Basic_data
+    common  file_data , Queue_number , Coordinate_X , Coordinate_Y , Velocity_X , Velocity_Y ,  Kinetic_Energy , Potential_Energy, Collision, file_path 
+    Queue_number        =   0
+    Coordinate_X        =   1
+    Coordinate_Y        =   2
+    Velocity_X          =   3
+    Velocity_Y          =   4
+    Kinetic_Energy      =   5
+    Potential_Energy    =   6
+    Collision           =   7
+    Data_length                   =All_Particle_number * All_Frame_number
+    file_path           =   'L:\Data\200.0.2\'
+            openr       ,   data_getting    ,   file_path+'2dp_SACF.lammpstrj',/get_lun   ;get lun 相当于给前面的data_getting一个数值
+            Skip_Lun    ,   data_getting    ,   9   , /Lines  
+            All_data    =   dblarr(8,40960000)
+            readf       ,   data_getting    ,   All_data
+            ;那么比如说第1帧、第233个颗粒、Y方向的速度即为
+            ;All_data(Velocity_Y,1*All_Particle_number+233)
+    close       , data_getting
+End

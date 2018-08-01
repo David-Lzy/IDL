@@ -1,0 +1,20 @@
+Pro Core
+    common Basic_data ,Number_density,All_Particle_number,All_Frame_number,Weight_of_Particle,Periodic_boundary_X,Periodic_boundary_Y,Half_Periodic_boundary_X,Half_Periodic_boundary_Y,kappa 
+    Number_density = 1.15
+    All_Particle_number = 5L
+    All_Frame_number = 200L
+    Weight_of_Particle = 1
+    Area_size = All_Particle_number / Number_density
+    Periodic_boundary_X = ( Area_size * (2/1.73205) )^0.5
+    Periodic_boundary_Y = ( Area_size / (2/1.73205) )^0.5
+    Half_Periodic_boundary_X = 0.5*( Area_size * (2/1.73205) )^0.5
+    Half_Periodic_boundary_Y = 0.5*( Area_size / (2/1.73205) )^0.5
+;  time_interval = 1L
+    kappa = 2
+    time1 = systime(/seconds)
+    Getting_Data ,All_data
+    EACF , Termal_conductivity, All_data
+    print ,Termal_conductivity
+    time2 = systime(/seconds)
+    print , time2 - time1
+End
