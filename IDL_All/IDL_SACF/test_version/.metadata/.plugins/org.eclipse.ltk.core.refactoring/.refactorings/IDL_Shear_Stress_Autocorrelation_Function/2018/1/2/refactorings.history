@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将资源“IDL_Shear_Stress_Autocorrelation_Function/Potentia_ Energy.pro”重命名为“Potential_ Energy.pro”" description="重命名资源“Potentia_ Energy.pro”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Potentia_ Energy.pro" name="Potential_ Energy.pro" stamp="1515771305836" updateReferences="true"/>
+</session>

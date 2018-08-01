@@ -1,0 +1,22 @@
+Pro Advanced_average_value  , All_data , All_sets , All_Parameters , Data_Directory , name_temp , file_path_temp 
+  data_length  = SIZE(All_data[0,0,*], /N_ELEMENTS)
+  ;abs_All_data = abs(All_data)
+  ;abs_C_Lamdba = dblarr(All_sets,data_length)
+  ;data_writing = strarr(All_Parameters)
+  
+  openw        , data_building1          ,  Data_Directory + '1.txt' , /get_lun
+  for j_set = 0 ,  All_sets - 1  do begin  
+      average = 0.0
+      Maxium  = 0.0
+      Minium  = 0.0
+      for i_Parameter = 0 ,   All_Parameters - 1 do begin
+        average       = mean(All_data[j_set,i_Parameter,1950:2100])+average
+        ;Maxium        = max(All_data[j_set,i_Parameter,1500:1700])+Maxium
+        ;Minium        = min(All_data[j_set,i_Parameter,1500:1700])+Minium
+        ;printf        , data_building1 , '在',file_path_temp[j_set],'时，',name_temp[i_Parameter],'项的平均值为',average,'，最大值为',Maxium,'，最小值为',Minium
+        ;printf        , data_building1 , average;,'|',Maxium,'|',Minium
+      endfor
+      printf        , data_building1 , average;,'|',Maxium,'|',Minium
+    endfor
+  free_lun      , data_building1
+End

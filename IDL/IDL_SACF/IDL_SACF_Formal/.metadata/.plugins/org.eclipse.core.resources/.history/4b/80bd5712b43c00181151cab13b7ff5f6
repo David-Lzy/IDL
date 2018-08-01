@@ -1,0 +1,24 @@
+Pro IDL_FFT
+    time1   =   systime(/seconds)
+        All_data        =   dblarr(useful_length)
+        name_temp       =   '   '
+        Absolute_path   =   '   '
+        file_path_temp  =   '   '
+        file_path       =   '   '
+        bash_path       =   file_dirname(routine_filepath('IDL_FFT'))
+        openr   ,   path_getting    ,   bash_path + '\file_Bash.txt' , /get_lun
+        openr   ,   name_getting    ,   bash_path + '\name_Bash.txt' , /get_lun
+            while   ~eof(path_getting)  do begin
+                readf       ,   path_getting    ,   file_path_temp
+                file_path   =   '*等待确认*' + file_path_temp + '\'
+                while   ~eof(name_getting)  do begin
+                    readf           ,   name_getting  ,   name_temp
+                    Absolute_path   =   file_path + '\' + name_temp
+                    File_Reading    ,   All_data      ,   Absolute_path     ,   useful_length
+                    Data_Building   ,   All_data      ,   Absolute_path
+                endwhile         
+            endwhile
+    time2       =   systime(/seconds)
+    time_spend  =   ( time2 - time1 )/60
+    print , 'All done , and cost' , time_spend , ' minutes.'
+End

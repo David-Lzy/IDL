@@ -1,0 +1,15 @@
+pro test_bulid
+  ;ata_test = filepath(‘test.txt’);,Subdirectory=[‘test’,’txt’]
+  dat_test = randomu(1,[2,100])
+  ;print , dat_test
+  filepath = 'C:\Users\li199\IDL\Workspace0\test\'
+  openw,1,filepath+'test.txt'
+  ;test=filepath(‘test.txt’,Subdirectory=[];‘examples’,’data’]
+  printf ,1, dat_test
+  close , 1
+  
+  openr,2,filepath+'test.txt'
+  
+  
+  
+end

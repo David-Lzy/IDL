@@ -1,0 +1,16 @@
+//org.eclipse.ui.commands/state/com.perforce.team.ui.commands.showStreams.radio/org.eclipse.ui.commands.radioState=Tree
+//org.eclipse.ui.commands/state/com.rsi.idldt.scm.command.toggle.perspectiveBar/org.eclipse.ui.commands.toggleState=false
+//org.eclipse.ui.commands/state/org.eclipse.ui.window.lockToolBar/org.eclipse.ui.commands.toggleState=true
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc
+ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.jface.textfont
+eclipse.preferences.version=1
+org.eclipse.jface.bannerfont=1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI;
+org.eclipse.jface.headerfont=1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI;
+org.eclipse.jface.textfont=1|Microsoft YaHei UI|11.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|-122|3|2|1|34|Microsoft YaHei UI;
+org.eclipse.ui.ide.systemDefault.com.perforce.team.ui.consoleFont=1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI;
+org.eclipse.ui.ide.systemDefault.org.eclipse.jface.headerfont=1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI;
+org.eclipse.ui.ide.systemDefault.org.eclipse.jface.textfont=1|Microsoft YaHei UI|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|-122|3|2|1|34|Microsoft YaHei UI;
+org.eclipse.ui.ide.systemDefault.org.eclipse.team.cvs.ui.fontsandcolors.outgoing_change_font=1|Microsoft YaHei UI|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|-122|3|2|1|34|Microsoft YaHei UI;
+org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.texteditor.blockSelectionModeFont=1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI;
+org.eclipse.ui.ide.systemDefault.pref_console_font=1|Microsoft YaHei UI|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|-122|3|2|1|34|Microsoft YaHei UI;
+overridepresentation=true
