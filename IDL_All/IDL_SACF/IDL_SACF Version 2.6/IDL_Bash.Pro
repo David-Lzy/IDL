@@ -1,5 +1,5 @@
 Pro IDL_Bash
-    Gamma_                      =   300L
+    ;Gamma_                      =   300L
     test_time                   =   'Formal_analysis'
     useful_length               =   10000L
     Real_All_frame_number       =   10*10000UL
