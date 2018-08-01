@@ -1,5 +1,0 @@
-test6\IDL_analysis\beta0.0
-test6\IDL_analysis\beta0.1
-test6\IDL_analysis\beta0.6
-test6\IDL_analysis\beta0.7
-test6\IDL_analysis\beta0.8

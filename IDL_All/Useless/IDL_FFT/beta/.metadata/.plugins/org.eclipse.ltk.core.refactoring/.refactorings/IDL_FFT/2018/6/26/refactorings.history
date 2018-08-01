@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="将资源“IDL_FFT/IDL_Integral.Pro”重命名为“IDL_Bash.Pro”" description="重命名资源“IDL_Integral.Pro”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="IDL_Integral.Pro" name="IDL_Bash.Pro" stamp="1530091940384" updateReferences="true"/>
-</session>

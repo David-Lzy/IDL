@@ -1,4 +1,0 @@
-Integral_C_Lambda_part
-Integral_C_Lambda
-C_Lambda_part
-C_Lambda

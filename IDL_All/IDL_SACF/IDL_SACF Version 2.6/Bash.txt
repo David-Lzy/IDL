@@ -1,2 +1,0 @@
-Kappa2\Gamma300\Beta1.0\N16384\Compare3\
-Kappa2\Gamma300\Beta0.0\N16384\Compare4\

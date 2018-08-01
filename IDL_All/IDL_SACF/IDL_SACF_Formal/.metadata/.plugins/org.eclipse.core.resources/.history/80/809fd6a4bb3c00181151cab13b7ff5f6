@@ -1,5 +1,0 @@
-Pro Data_Building   ,   All_data    ,     Absolute_path    ,    file_path   ,   name_temp
-    result  =   FFT(All_data)
-    openw   ,   data_building1   ,   Absolute_path , /get_lun
-    printf  ,   data_building1   ,   FORMAT='(f0)'   ,   file_path_  +  'FFT_'  +  name_temp  + '.txt'
-End

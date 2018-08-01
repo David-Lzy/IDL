@@ -1,6 +1,0 @@
-Pro Data_Building   ,   All_data    ,     Absolute_path    ,    file_path   ,   name_temp
-    result  =   FFT(All_data)
-    analysis_path   =   strjoin( Absolute_path [, Delimiter] [, /SINGLE] )
-    openw   ,   data_building   ,   Absolute_path
-    printf  ,   data_building   ,   FORMAT='(f0)'   ,   file_path_  +  'FFT_'  +  name_temp
-End
