@@ -21,7 +21,6 @@ Pro IDL_Integral
                             test_temp = ''
                             readf   ,   colums_length,   test_temp
                             columns =   (strlen((STRJOIN(STRSPLIT(test_temp, /EXTRACT),'')))-4)/2
-                            print   , columns
                             All_data=   dblarr(columns,useful_length)
                             free_lun,   colums_length
                             
