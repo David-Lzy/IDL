@@ -32,7 +32,7 @@ Pro IDL_Bash
               time3   =   systime(/seconds)           
               readf       ,   path_getting  ,   file_path_temp
               str_temp1   = strpos(file_path_temp,'Gamma') + strlen('Gamma')
-              str_temp2   = strpos(file_path_temp,'Beta') - 2
+              str_temp2   = strpos(file_path_temp,'Beta') - 1
               Gamma_      = long(strmid(file_path_temp,str_temp1,str_temp2-str_temp1))
               Normalized  = (Gamma_^2/(All_Particle_number/2.0))*frame_to_omega
               ;在Data_Getting中已经对flux normalized，故只需一次frame到ogmega 

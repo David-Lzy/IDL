@@ -2836,3 +2836,118 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-08-03 17:51:26.598 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:48.353
+!MESSAGE NLS unused message: ProEditorChroma_Reserved in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:48.355
+!MESSAGE NLS unused message: ProEditorChroma_SysPro in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:48.356
+!MESSAGE NLS unused message: ProEditorChroma_SysFunc in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:48.357
+!MESSAGE NLS unused message: ProEditorChroma_UserPro in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:48.357
+!MESSAGE NLS unused message: ProEditorChroma_UserFunc in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:48.358
+!MESSAGE NLS unused message: ProEditorChroma_UserUncomp in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:48.359
+!MESSAGE NLS unused message: ProEditorChroma_String in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:48.360
+!MESSAGE NLS unused message: ProEditorChroma_Comment in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:48.360
+!MESSAGE NLS unused message: ProEditorChroma_Other in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:48.361
+!MESSAGE NLS unused message: ProEditorChroma_Number in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:48.362
+!MESSAGE NLS unused message: ProEditorChroma_StructField in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:48.364
+!MESSAGE NLS unused message: PPC_AutoPasteFormat in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:49.222
+!MESSAGE NLS unused message: DocumentInputStream_error_read in: org.eclipse.ui.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:49.327
+!MESSAGE NLS unused message: FileBuffer_status_ok in: org.eclipse.core.internal.filebuffers.FileBuffersMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:49.524
+!MESSAGE NLS unused message: ToggleDetailPaneAction_6 in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:49.525
+!MESSAGE NLS unused message: ToggleDetailPaneAction_9 in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:49.530
+!MESSAGE NLS unused message: MarkerRulerAction_addMarker in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:49.531
+!MESSAGE NLS unused message: MarkerRulerAction_removeMarkers in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:49.531
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_title in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:49.532
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_message in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:49.533
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_rememberquestion in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY com.perforce.team.core 2 0 2018-08-03 17:51:50.012
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://6.fwk1635639464:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2018-08-03 17:51:50.013
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://6.fwk1635639464:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2018-08-03 17:51:50.014
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2018-08-03 17:51:50.015
+!MESSAGE Using default charset: GBK; JVM charset: GBK
+
+!ENTRY com.perforce.team.core 1 0 2018-08-03 17:51:50.016
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2018-08-03 17:51:50.017
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2018-08-03 17:51:50.018
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2018-08-03 17:51:50.019
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2018-08-03 17:51:50.019
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2018-08-03 17:51:50.020
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:50.052
+!MESSAGE NLS unused message: Could_not_provide_children_for_element in: org.eclipse.ui.internal.navigator.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:50.211
+!MESSAGE NLS unused message: TextEditorPreferencePage_colorsAndFonts_link_tooltip in: org.eclipse.ui.internal.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-03 17:51:50.212
+!MESSAGE NLS unused message: TextEditorPreferencePage_overwriteMode in: org.eclipse.ui.internal.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-08-03 17:51:52.808
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\li199'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

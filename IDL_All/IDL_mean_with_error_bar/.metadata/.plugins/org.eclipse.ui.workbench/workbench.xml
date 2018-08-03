@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench version="2.0">
 <workbenchAdvisor/>
-<window height="808" width="1335" x="30" y="228">
+<window height="808" width="1335" x="368" y="107">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.debug.ui.DebugView"/>
 </fastViewData>
@@ -13,7 +13,7 @@
 <coolItem id="com.rsi.idldt.ui.textedit.toolbar" itemType="typeToolBarContribution" x="288" y="56"/>
 <coolItem id="com.rsi.idldt.ui.toolbar.debugTools" itemType="typeToolBarContribution" x="478" y="56"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.rsi.idldt.proeditor.ProEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
 <page aggregateWorkingSetId="Aggregate for window 1515669510321" focus="true" label="工作空间 － IDL">
 <editors>
@@ -24,6 +24,9 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
@@ -32,13 +35,25 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IDL_mean_with_error/compare_Bash.txt"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="58" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.ui.DefaultTextEditor" name="name_Bash.txt" partName="name_Bash.txt" path="D:/Data_with_git/IDL/IDL_mean_with_error_bar/IDL_mean_with_error/name_Bash.txt" title="name_Bash.txt" tooltip="IDL_mean_with_error/name_Bash.txt" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.ui.DefaultTextEditor" name="name_Bash.txt" partName="name_Bash.txt" path="D:/Data_with_git/IDL/IDL_All/IDL_mean_with_error_bar/IDL_mean_with_error/name_Bash.txt" title="name_Bash.txt" tooltip="IDL_mean_with_error/name_Bash.txt" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IDL_mean_with_error/name_Bash.txt"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="41" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="26" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.ui.DefaultTextEditor" name="file_Bash.txt" partName="file_Bash.txt" path="D:/Data_with_git/IDL/IDL_mean_with_error_bar/IDL_mean_with_error/file_Bash.txt" title="file_Bash.txt" tooltip="IDL_mean_with_error/file_Bash.txt" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IDL_mean_with_error/file_Bash.txt"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="122" selectionTopPixel="0"/>
+</editor>
+<editor id="com.rsi.idldt.proeditor.ProEditor" name="Data_Building.Pro" partName="Data_Building.Pro" path="D:/Data_with_git/IDL/IDL_All/IDL_mean_with_error_bar/IDL_mean_with_error/Data_Building.Pro" title="Data_Building.Pro" tooltip="IDL_mean_with_error/Data_Building.Pro" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IDL_mean_with_error/Data_Building.Pro"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1941" selectionTopPixel="432"/>
+</editor>
+<editor activePart="true" focus="true" id="com.rsi.idldt.proeditor.ProEditor" name="File_Reading.Pro" partName="File_Reading.Pro" path="D:/Data_with_git/IDL/IDL_All/IDL_mean_with_error_bar/IDL_mean_with_error/File_Reading.Pro" title="File_Reading.Pro" tooltip="IDL_mean_with_error/File_Reading.Pro" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IDL_mean_with_error/File_Reading.Pro"/>
+<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="4" selectionTopPixel="0"/>
+</editor>
+<editor id="com.rsi.idldt.proeditor.ProEditor" name="IDL_Bash.Pro" partName="IDL_Bash.Pro" path="D:/Data_with_git/IDL/IDL_All/IDL_mean_with_error_bar/IDL_mean_with_error/IDL_Bash.Pro" title="IDL_Bash.Pro" tooltip="IDL_mean_with_error/IDL_Bash.Pro" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IDL_mean_with_error/IDL_Bash.Pro"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="335" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -71,7 +86,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.DefaultTextEditor" activePerspective="com.rsi.idldt.ui.IDLPerspective">
+<perspectives activePart="com.rsi.idldt.proeditor.ProEditor" activePerspective="com.rsi.idldt.ui.IDLPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.rsi.idldt.internal.ui.IDLPerspectiveFactory" id="com.rsi.idldt.ui.IDLPerspective" label="IDL"/>
 <alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.CmdLine"/>
@@ -175,31 +190,11 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/IDL_mean_Alpha/file_Bash.txt"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_mean_Alpha/File_Reading.Pro"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/IDL_mean_with_error/name_Bash.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_mean_with_error/Data_Building.Pro"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_mean_with_error/File_Reading.Pro"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_mean_with_error/IDL_Bash.Pro"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_mean_with_error/test.pro"/>
 </editors>
-<item historyLabel="Data_Building.Pro" index="1">
-<position info="not_deleted" x="131" y="0"/>
-</item>
-<item historyLabel="IDL_Bash.Pro" index="0">
-<position info="not_deleted" x="2702" y="0"/>
-</item>
-<item historyLabel="IDL_Bash.Pro" index="0">
-<position info="not_deleted" x="1810" y="0"/>
-</item>
-<item historyLabel="IDL_Bash.Pro" index="0">
-<position info="not_deleted" x="1810" y="0"/>
-</item>
-<item historyLabel="Data_Building.Pro" index="1">
-<position info="not_deleted" x="145" y="0"/>
-</item>
-<item historyLabel="IDL_Bash.Pro" index="0">
-<position info="not_deleted" x="1810" y="0"/>
-</item>
-<item historyLabel="Data_Building.Pro" index="1">
-<position info="not_deleted" x="55" y="9"/>
-</item>
-<item historyLabel="IDL_Bash.Pro" index="0">
-<position info="not_deleted" x="2336" y="9"/>
-</item>
 <item historyLabel="name_Bash.txt" index="2">
 <position info="not_deleted" x="66" y="0"/>
 </item>
@@ -323,8 +318,32 @@
 <item historyLabel="IDL_Bash.Pro" index="10">
 <position info="not_deleted" x="1260" y="0"/>
 </item>
-<item active="true" historyLabel="name_Bash.txt" index="17">
+<item historyLabel="name_Bash.txt" index="17">
 <position info="not_deleted" x="41" y="0"/>
+</item>
+<item historyLabel="name_Bash.txt" index="17">
+<position info="not_deleted" x="26" y="0"/>
+</item>
+<item historyLabel="Data_Building.Pro" index="18">
+<position info="not_deleted" x="533" y="0"/>
+</item>
+<item historyLabel="File_Reading.Pro" index="19">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="IDL_Bash.Pro" index="20">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="test.pro" index="21">
+<position info="not_deleted" x="76" y="0"/>
+</item>
+<item historyLabel="IDL_Bash.Pro" index="20">
+<position info="not_deleted" x="335" y="0"/>
+</item>
+<item historyLabel="Data_Building.Pro" index="18">
+<position info="not_deleted" x="1941" y="0"/>
+</item>
+<item active="true" historyLabel="File_Reading.Pro" index="19">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -344,6 +363,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="test.pro" tooltip="IDL_mean_with_error/test.pro">
+<persistable path="/IDL_mean_with_error/test.pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="IDL_Bash.Pro" tooltip="IDL_mean_with_error/IDL_Bash.Pro">
+<persistable path="/IDL_mean_with_error/IDL_Bash.Pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="File_Reading.Pro" tooltip="IDL_mean_with_error/File_Reading.Pro">
+<persistable path="/IDL_mean_with_error/File_Reading.Pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="Data_Building.Pro" tooltip="IDL_mean_with_error/Data_Building.Pro">
+<persistable path="/IDL_mean_with_error/Data_Building.Pro"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="Data_Building.Pro" tooltip="IDL_mean_Alpha/Data_Building.Pro">
 <persistable path="/IDL_mean_Alpha/Data_Building.Pro"/>
 </file>
@@ -376,15 +407,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="IDL_Bash.Pro" tooltip="IDL_mean_Alpha/IDL_Bash.Pro">
 <persistable path="/IDL_mean_Alpha/IDL_Bash.Pro"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="name_Bash.txt" tooltip="IDL_Integral_Alpha/name_Bash.txt">
-<persistable path="/IDL_Integral_Alpha/name_Bash.txt"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="Data_Building.Pro" tooltip="IDL_SACF Version 1.6/Data_Building.Pro">
-<persistable path="/IDL_SACF Version 1.6/Data_Building.Pro"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.actions.iopen.runner" name="name_Bash.txt" tooltip="IDL_FFT_Alpha/name_Bash.txt">
-<persistable path="/IDL_FFT_Alpha/name_Bash.txt"/>
 </file>
 </mruList>
 </workbench>

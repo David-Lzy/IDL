@@ -35,15 +35,15 @@ Pro IDL_Bash
                         All_data=   dblarr(columns,useful_length,compare_times)
                         free_lun,   colums_length1
                         free_lun,   colums_length2
-
+                    
                     openr   ,   compare_getting  , bash_path + '\compare_Bash.txt' , /get_lun
                     for j=0 , compare_times - 1 do begin
-
+                      
                         readf   ,   compare_getting  ,   compare_temp       
                         Absolute_path       =   file_path  + '\' + compare_temp + '\' + name_temp + '.txt'   
                         File_Reading        ,   single_file_data  , Absolute_path , useful_length , columns , time , title  
                         All_data[*,*,j] = single_file_data    
-        
+                           
                     endfor
                     free_lun  , compare_getting
                     Data_Building ,   All_data , file_path , name_temp , columns , time , title
@@ -52,7 +52,7 @@ Pro IDL_Bash
         endwhile
         free_lun  , path_getting
     time2       =   systime(/seconds)
-    time_spend =    STRTRIM(string(long(( time2 - time1 )/1)),2)
+    time_spend =    STRTRIM(string(long(( time2 - time1 )/3600)),2)
     print       ,   'All done , and cost ' ,time_spend , ' seconds.'
     
 

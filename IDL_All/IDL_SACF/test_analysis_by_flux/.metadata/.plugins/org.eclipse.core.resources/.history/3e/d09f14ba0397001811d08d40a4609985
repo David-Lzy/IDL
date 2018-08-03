@@ -1,14 +1,14 @@
 Pro IDL_Bash
-    Gamma_                      =   300L;每次要看
+    Gamma_                      =   20L;每次要看
     test_time                   =   ''
     useful_length               =   10000L
     Real_All_frame_number       =   10*10000UL
-    file_number                 =   1
+    file_number                 =   5
     skip_ratio                  =   0.0
     start_ratio                 =   0.0
     All_Particle_number         =   4096L;每次要看
     frame_to_omega              =   0.113137
-    data_path                   =   'D:\Google Drive\Fast analysis\Data_Analysis\EACF\Formal_Analysis\IDL_Basic_analysis\' + test_time + '\'
+    data_path                   =   'F:\Data\without_analysis\Formal_analysis\Kappa2\Gamma20\Beta0.2\N16384\' + test_time + '\'
     bash_path                   =   file_dirname(routine_filepath('IDL_Bash'))    
     single_file_frame_number    =   long64(Real_All_frame_number / file_number)
     all_frame_number            =   long64(Real_All_frame_number*(1-skip_ratio))

@@ -3,7 +3,7 @@ Pro Flux_data_Getting   ,   file_path , All_data , All_Frame_number , All_Partic
     heat_flux_temp = dblarr(2,All_Frame_number)
     openr , data_getting2 , file_path + 'log.lammps'  , /get_lun
     data_temp = dblarr(2,1)
-    Skip_Lun    ,   data_getting2   , 78 , /Lines
+    Skip_Lun    ,   data_getting2   , 77 , /Lines
     skip_lun    ,   data_getting2   , (i_file_number-1) * (All_Frame_number+29) , /Lines
     
     skip_Lun  ,  data_getting2  ,  1 , /Lines
