@@ -14,5 +14,5 @@ MACROS_FLOATING_TOOLBAR_WIDTH=136
 MACROS_FLOATING_TOOLBAR_X=208
 MACROS_FLOATING_TOOLBAR_Y=208
 com.rsi.idldt.core.ui.proeditor.templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
-coolItemsOrder=org.eclipse.ui.workbench.file\:com.rsi.idldt.ui.textedit.toolbar\:com.rsi.idldt.ui.toolbar.debugTools\:
+coolItemsOrder=org.eclipse.ui.workbench.file\:com.rsi.idldt.ui.textedit.toolbar\:com.rsi.idldt.ui.toolbar.debugTools
 eclipse.preferences.version=1

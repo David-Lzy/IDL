@@ -1,0 +1,87 @@
+Pro Data_Building3  , All_data , file_path , name_temp , columns , title , frame_to_omega , comapre_str , file_path_temp
+    compare_times =   Size(All_data[0,0,*], /N_ELEMENTS)
+    data_length   =   Size(All_data[0,*,0], /N_ELEMENTS)
+    
+    str_temp1   = strpos(file_path_temp,'\Gamma') + strlen('\Gamma')
+    Gamma_      = strmid(file_path_temp,str_temp1,3) 
+    temp_data   = dblarr(compare_times+1)  
+    for i = 0 ,   columns-1  do begin
+      
+        if (columns eq 1) then begin
+            analysis_path =   file_path + '\Integral_with_different_beta.txt'
+        endif else begin
+            analysis_path =   file_path + '\Integral_with_different_beta_part_' + STRTRIM(string(i+1),2) + '.txt'
+        endelse
+    
+        openw       ,   data_building1   ,   analysis_path , /get_lun , width=400
+        
+        head_str = ''
+        for j=0 , compare_times-1  do begin
+            str_temp1   = strpos(comapre_str[j],'\Beta') + strlen('\Beta')
+            str_temp2   = strpos(comapre_str[j],'\N')
+            Beta        = strmid(comapre_str[j],str_temp1,str_temp2-str_temp1)
+            head_str    = head_str + '            ' +STRTRIM(Beta,2)
+        endfor
+        printf , data_building1 , 'time\Beta    ' , head_str
+
+        for iframe  = 0L  , data_length - 1 do begin
+          time = frame_to_omega * iframe
+          temp_data[0] = time
+          temp_data[1:compare_times] = All_data[i,iframe,*]
+          printf , data_building1 , temp_data
+        endfor
+
+        free_lun    ,   data_building1
+    endfor
+    
+    
+End    
+    
+    
+;    star          =   long(1/frame_to_omega * 300)
+;    end_          =   long(1/frame_to_omega * 500)
+;    title         =   STRMID(title,16,100);除去title前面的time    
+;    average       =   dblarr(columns,compare_times+1)
+;    Maxium        =   dblarr(columns,compare_times+1)
+;    Minium        =   dblarr(columns,compare_times+1)
+;    mean_data     =   mean(All_data, Dimension =3 )
+;          
+;    for i = 0 ,   columns-1  do begin     
+;        average[i,0]     = mean(mean_data[i,star:end_])
+;        Maxium[i,0]      =  max(mean_data[i,star:end_])
+;        Minium[i,0]      =  min(mean_data[i,star:end_])
+;        for j=1 , compare_times  do begin
+;            average[i,j]     = mean(All_data[i,star:end_,j-1])
+;            Maxium[i,j]      =  max(All_data[i,star:end_,j-1])
+;            Minium[i,j]      =  min(All_data[i,star:end_,j-1])
+;        endfor
+;    endfor
+;    
+;    
+;    str_temp1   = strpos(name_temp,'\Beta') + strlen('\Beta')
+;    str_temp2   = strpos(name_temp,'\N')
+;    Beta        = long(strmid(name_temp,str_temp1,str_temp2-str_temp1))
+;
+;    str_temp1   = strpos(name_temp,'\Gamma') + strlen('\Gamma')
+;    str_temp2   = strpos(name_temp,'\Beta')
+;    Gamma_      = long(strmid(name_temp,str_temp1,str_temp2-str_temp1))
+;    
+;    analysis_path =   file_path + '\Kappa_with_error_bar_' + name_temp + '.txt'
+;    openw       ,   data_building1   ,   analysis_path , /get_lun , width=400
+;        printf      ,   data_building1   ,      '物理条件为：' + STRTRIM(string(Gamma_),2) + '     mean' + '      Max' + '      Min'
+;        printf      ,   data_building1   ,      'Average  ' + title
+;        printf      ,   data_building1   ,      'mean     ' , average[*,0]
+;        printf      ,   data_building1   ,       , Maxium[*,0]
+;        printf      ,   data_building1   ,       , Minium[*,0]
+;        if columns eq 1  then begin
+;            printf      ,   data_building1   ,      'and compare Min ' , min(average[*,*])
+;            printf      ,   data_building1   ,      'and compare Max ' , max(average[*,*])
+;        endif
+;        
+;        
+;        for j=1 , compare_times  do begin
+;            printf      ,   data_building1   ,      'Compare' + STRTRIM(string(j),2) 
+;            printf      ,   data_building1   ,      'mean     ' , average[*,j]
+;            printf      ,   data_building1   ,      'Max      ' , Maxium[*,j]
+;            printf      ,   data_building1   ,      'Min      ' , Minium[*,j]
+;          endfor

@@ -1,0 +1,86 @@
+Pro Data_Building2   ,   All_data    ,  file_path   ,   name_temp , columns , title , frame_to_omega , comapre_str
+    star          =   long(1/frame_to_omega * 300)
+    end_          =   long(1/frame_to_omega * 500)
+    compare_times =   Size(All_data[0,0,*], /N_ELEMENTS)
+    
+    for i = 0 ,   columns-1  do begin
+        for j=0 , compare_times-1  do begin
+          average[i,j]     = mean(All_data[i,star:end_,j])
+          Maxium[i,j]      =  max(All_data[i,star:end_,j])
+          Minium[i,j]      =  min(All_data[i,star:end_,j])
+        endfor
+    endfor
+    
+    str_temp1   = strpos(name_temp,'\Beta') + strlen('\Beta')
+    str_temp2   = strpos(name_temp,'\N')
+    Beta        = long(strmid(name_temp,str_temp1,str_temp2-str_temp1))
+
+    str_temp1   = strpos(name_temp,'\Gamma') + strlen('\Gamma')
+    Gamma_      = long(strmid(name_temp,4))
+    
+    
+    
+    analysis_path =   file_path + '\Kappa_with_error_bar_in_Gamma_equal_' + STRTRIM(string(Gamma_),2) + '.txt'
+    
+    openw       ,   data_building1   ,   analysis_path , /get_lun , width=400
+    printf      ,   data_building1   ,      '物理条件为：' + STRTRIM(string(Gamma_),2) + '     mean' + '      Max' + '      Min'
+    for i = 0 ,   columns-1  do begin
+        printf , data_building1 , 'the ' + STRTRIM(string(i),2) + ' one:'
+        for j=0 , compare_times-1  do begin
+          printf , data_building1 , STRTRIM(string(Beta),2) ,average[i,j] , Maxium[i,j] , Minium[i,j]
+        endfor
+    endfor
+    
+    
+    
+    
+    star          =   long(1/frame_to_omega * 300)
+    end_          =   long(1/frame_to_omega * 500)
+    title         =   STRMID(title,16,100);除去title前面的time    
+    average       =   dblarr(columns,compare_times+1)
+    Maxium        =   dblarr(columns,compare_times+1)
+    Minium        =   dblarr(columns,compare_times+1)
+    mean_data     =   mean(All_data, Dimension =3 )
+          
+    for i = 0 ,   columns-1  do begin     
+        average[i,0]     = mean(mean_data[i,star:end_])
+        Maxium[i,0]      =  max(mean_data[i,star:end_])
+        Minium[i,0]      =  min(mean_data[i,star:end_])
+        for j=1 , compare_times  do begin
+            average[i,j]     = mean(All_data[i,star:end_,j-1])
+            Maxium[i,j]      =  max(All_data[i,star:end_,j-1])
+            Minium[i,j]      =  min(All_data[i,star:end_,j-1])
+        endfor
+    endfor
+    
+    
+    str_temp1   = strpos(name_temp,'\Beta') + strlen('\Beta')
+    str_temp2   = strpos(name_temp,'\N')
+    Beta        = long(strmid(name_temp,str_temp1,str_temp2-str_temp1))
+
+    str_temp1   = strpos(name_temp,'\Gamma') + strlen('\Gamma')
+    str_temp2   = strpos(name_temp,'\Beta')
+    Gamma_      = long(strmid(name_temp,str_temp1,str_temp2-str_temp1))
+    
+    analysis_path =   file_path + '\Kappa_with_error_bar_' + name_temp + '.txt'
+    openw       ,   data_building1   ,   analysis_path , /get_lun , width=400
+        printf      ,   data_building1   ,      '物理条件为：' + STRTRIM(string(Gamma_),2) + '     mean' + '      Max' + '      Min'
+        printf      ,   data_building1   ,      'Average  ' + title
+        printf      ,   data_building1   ,      'mean     ' , average[*,0]
+        printf      ,   data_building1   ,       , Maxium[*,0]
+        printf      ,   data_building1   ,       , Minium[*,0]
+        if columns eq 1  then begin
+            printf      ,   data_building1   ,      'and compare Min ' , min(average[*,*])
+            printf      ,   data_building1   ,      'and compare Max ' , max(average[*,*])
+        endif
+        
+        
+        for j=1 , compare_times  do begin
+            printf      ,   data_building1   ,      'Compare' + STRTRIM(string(j),2) 
+            printf      ,   data_building1   ,      'mean     ' , average[*,j]
+            printf      ,   data_building1   ,      'Max      ' , Maxium[*,j]
+            printf      ,   data_building1   ,      'Min      ' , Minium[*,j]
+          endfor
+      
+    free_lun    ,   data_building1
+End

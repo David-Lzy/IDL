@@ -1,0 +1,69 @@
+Pro IDL_Data_Getting    , file_path , msd_data , All_Frame_number , All_Particle_number , i_file_number , frame_to_omega , useful_length
+    part_Particle_number    =   64L
+    cut_part                =   All_Particle_number/part_Particle_number
+    All_data_temp           =   dblarr(2,part_Particle_number,All_Frame_number)
+    All_data_temp_temp      =   dblarr(2,part_Particle_number)
+    msd_data                =   dblarr(2,useful_length)
+
+    Location_X              =   0
+    Location_Y              =   1
+    Velocity_X              =   !NULL
+    Velocity_Y              =   !NULL
+    Kinetic_Energy          =   !NULL
+    Potential_Energy        =   !NULL
+    Collision_XX            =   !NULL
+    Collision_YY            =   !NULL
+    Collision_XY            =   !NULL
+    Kinetic_Energy_part     =   !NULL
+    Potential_Energy_part   =   !NULL
+    Collision_X_part        =   !NULL
+ 
+    file_number             =   string(i_file_number)
+    file_number             =   STRTRIM(file_number,2);去除两头空格
+
+
+
+       ;get lun 相当于给前面的data_getting一个数
+
+    boundary_length_X       =   sqrt(All_particle_number/1.155*2/sqrt(3))
+    boundary_length_Y       =   boundary_length_X/2*sqrt(3)
+    half_boundary_length_square_X = 0.25*boundary_length_X^2
+    half_boundary_length_square_Y = 0.25*boundary_length_Y^2
+
+    for ipart = 0L  ,   cut_part-1 do begin
+      
+        openr   ,   data_getting    ,   file_path + '2dp_MSD_' + file_number + '.lammpstrj' , /get_lun
+        Skip_Lun    ,   data_getting    ,   (9+ ipart*part_Particle_number), /Lines
+        for iframe = 0L ,   All_Frame_number-1 do begin
+            Skip_Lun    ,   data_getting    ,   (9+All_Particle_number)*iframe
+            readf       ,   data_getting    ,   All_data_temp_temp
+            ;print , All_data_temp_temp
+            All_data_temp[*,*,iframe] = All_data_temp_temp
+        endfor
+        free_lun,   data_getting
+
+        for iparticle = 0L, part_Particle_number-1 do begin
+
+            temp1 = All_data_temp[Location_X,iparticle,*]
+            Pro_MSD , temp1 , msd_X_temp , jump_frame , useful_length , boundary_length_X , half_boundary_length_square_X
+
+            temp2 = All_data_temp[Location_Y,iparticle,*]
+            Pro_MSD , temp2 , msd_Y_temp , jump_frame , useful_length , boundary_length_Y , half_boundary_length_square_Y
+
+            msd_data[0,*] = msd_data[0,*] + msd_X_temp
+            msd_data[1,*] = msd_data[1,*] + msd_Y_temp
+
+        endfor
+        
+        ;All_data[0,*] = All_data[0,*] + total(msd[0,*,*],1)
+        ;All_data[1,*] = All_data[1,*] + total(msd[1,*,*],1)
+    endfor
+
+    ;msd_data[0,*] = msd_data[0,*] / All_Particle_number
+    ;msd_data[1,*] = msd_data[1,*] / All_Particle_number
+    msd_data = msd_data / All_Particle_number
+
+
+
+
+End

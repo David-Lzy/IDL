@@ -10,7 +10,7 @@ Pro IDL_Bash
         file_path       =   ''
         test_temp       =   ''
         bash_path       =   file_dirname(routine_filepath('IDL_Bash'))
-        data_location   =   'D:\Google Drive\Fast analysis\Data_Analysis\EACF\Formal_Analysis\IDL_Basic_analysis\'
+        data_location   =   'D:\Google Drive\Fast analysis\Project\Heat_Transport_In_Magnetic_Field\Data\IDL_Basic_analysis\Archived_More_EACF\'
         
         
         

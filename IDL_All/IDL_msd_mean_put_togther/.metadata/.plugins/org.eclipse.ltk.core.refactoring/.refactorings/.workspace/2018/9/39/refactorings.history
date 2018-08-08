@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将资源“IDL_mean_with_error”重命名为“IDL_MSD_put_togther”" description="重命名资源“IDL_mean_with_error”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/IDL_mean_with_error" name="IDL_MSD_put_togther" stamp="1537891327611" updateReferences="true"/>
+</session>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="将资源“IDL_SACF Version 2.7”重命名为“IDL_MSD_Beta Version 1.0”" description="重命名资源“IDL_SACF Version 2.7”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/IDL_SACF Version 2.7" name="IDL_MSD_Beta Version 1.0" stamp="1536859786636" updateReferences="true"/>&#x0A;<refactoring comment="将资源“IDL_MSD_Beta Version 1.0”重命名为“IDL_MSD_Formal_Version 1.0”" description="重命名资源“IDL_MSD_Beta Version 1.0”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/IDL_MSD_Beta Version 1.0" name="IDL_MSD_Formal_Version 1.0" stamp="1536955221269" updateReferences="true"/>
+</session>

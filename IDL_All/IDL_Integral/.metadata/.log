@@ -4821,3 +4821,1564 @@ Contains: 未能删除：D:\Data_with_git\IDL\IDL_All\IDL_Integral\IDL_Integral_
 !MESSAGE 未能删除：D:\Data_with_git\IDL\IDL_All\IDL_Integral\IDL_Integral_Version1.2\name_Bash.txt。
 !SUBENTRY 4 org.eclipse.core.filesystem 4 273 2018-08-03 16:46:36.051
 !MESSAGE 未能删除：D:\Data_with_git\IDL\IDL_All\IDL_Integral\IDL_Integral_Version1.2。
+!SESSION 2018-08-04 06:00:01.547 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:14.378
+!MESSAGE NLS unused message: ProEditorChroma_Reserved in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:14.381
+!MESSAGE NLS unused message: ProEditorChroma_SysPro in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:14.382
+!MESSAGE NLS unused message: ProEditorChroma_SysFunc in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:14.382
+!MESSAGE NLS unused message: ProEditorChroma_UserPro in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:14.383
+!MESSAGE NLS unused message: ProEditorChroma_UserFunc in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:14.383
+!MESSAGE NLS unused message: ProEditorChroma_UserUncomp in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:14.384
+!MESSAGE NLS unused message: ProEditorChroma_String in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:14.385
+!MESSAGE NLS unused message: ProEditorChroma_Comment in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:14.385
+!MESSAGE NLS unused message: ProEditorChroma_Other in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:14.386
+!MESSAGE NLS unused message: ProEditorChroma_Number in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:14.386
+!MESSAGE NLS unused message: ProEditorChroma_StructField in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:14.389
+!MESSAGE NLS unused message: PPC_AutoPasteFormat in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:15.143
+!MESSAGE NLS unused message: DocumentInputStream_error_read in: org.eclipse.ui.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:15.241
+!MESSAGE NLS unused message: FileBuffer_status_ok in: org.eclipse.core.internal.filebuffers.FileBuffersMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:15.426
+!MESSAGE NLS unused message: ToggleDetailPaneAction_6 in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:15.427
+!MESSAGE NLS unused message: ToggleDetailPaneAction_9 in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:15.431
+!MESSAGE NLS unused message: MarkerRulerAction_addMarker in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:15.432
+!MESSAGE NLS unused message: MarkerRulerAction_removeMarkers in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:15.432
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_title in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:15.433
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_message in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:15.434
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_rememberquestion in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY com.perforce.team.core 2 0 2018-08-04 06:00:15.913
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://6.fwk1635639464:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2018-08-04 06:00:15.914
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://6.fwk1635639464:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2018-08-04 06:00:15.914
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2018-08-04 06:00:15.915
+!MESSAGE Using default charset: GBK; JVM charset: GBK
+
+!ENTRY com.perforce.team.core 1 0 2018-08-04 06:00:15.917
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2018-08-04 06:00:15.918
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2018-08-04 06:00:15.919
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2018-08-04 06:00:15.919
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2018-08-04 06:00:15.920
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2018-08-04 06:00:15.921
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:15.950
+!MESSAGE NLS unused message: Could_not_provide_children_for_element in: org.eclipse.ui.internal.navigator.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:16.080
+!MESSAGE NLS unused message: TextEditorPreferencePage_colorsAndFonts_link_tooltip in: org.eclipse.ui.internal.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-04 06:00:16.081
+!MESSAGE NLS unused message: TextEditorPreferencePage_overwriteMode in: org.eclipse.ui.internal.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-08-04 06:00:18.351
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\li199'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-08-09 16:40:52.098 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-08-09 16:41:04.770
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:05.943
+!MESSAGE NLS unused message: ProEditorChroma_Reserved in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:05.947
+!MESSAGE NLS unused message: ProEditorChroma_SysPro in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:05.948
+!MESSAGE NLS unused message: ProEditorChroma_SysFunc in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:05.948
+!MESSAGE NLS unused message: ProEditorChroma_UserPro in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:05.948
+!MESSAGE NLS unused message: ProEditorChroma_UserFunc in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:05.950
+!MESSAGE NLS unused message: ProEditorChroma_UserUncomp in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:05.950
+!MESSAGE NLS unused message: ProEditorChroma_String in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:05.951
+!MESSAGE NLS unused message: ProEditorChroma_Comment in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:05.952
+!MESSAGE NLS unused message: ProEditorChroma_Other in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:05.952
+!MESSAGE NLS unused message: ProEditorChroma_Number in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:05.953
+!MESSAGE NLS unused message: ProEditorChroma_StructField in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:05.956
+!MESSAGE NLS unused message: PPC_AutoPasteFormat in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:06.833
+!MESSAGE NLS unused message: DocumentInputStream_error_read in: org.eclipse.ui.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:06.945
+!MESSAGE NLS unused message: FileBuffer_status_ok in: org.eclipse.core.internal.filebuffers.FileBuffersMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:07.178
+!MESSAGE NLS unused message: ToggleDetailPaneAction_6 in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:07.179
+!MESSAGE NLS unused message: ToggleDetailPaneAction_9 in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:07.186
+!MESSAGE NLS unused message: MarkerRulerAction_addMarker in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:07.187
+!MESSAGE NLS unused message: MarkerRulerAction_removeMarkers in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:07.188
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_title in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:07.189
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_message in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:07.189
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_rememberquestion in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY com.perforce.team.core 2 0 2018-08-09 16:41:07.783
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://6.fwk1635639464:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2018-08-09 16:41:07.783
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://6.fwk1635639464:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2018-08-09 16:41:07.784
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2018-08-09 16:41:07.785
+!MESSAGE Using default charset: GBK; JVM charset: GBK
+
+!ENTRY com.perforce.team.core 1 0 2018-08-09 16:41:07.787
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2018-08-09 16:41:07.789
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2018-08-09 16:41:07.790
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2018-08-09 16:41:07.791
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2018-08-09 16:41:07.792
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2018-08-09 16:41:07.792
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:07.829
+!MESSAGE NLS unused message: Could_not_provide_children_for_element in: org.eclipse.ui.internal.navigator.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:08.004
+!MESSAGE NLS unused message: TextEditorPreferencePage_colorsAndFonts_link_tooltip in: org.eclipse.ui.internal.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-09 16:41:08.005
+!MESSAGE NLS unused message: TextEditorPreferencePage_overwriteMode in: org.eclipse.ui.internal.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-08-09 16:41:10.677
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\li199'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-08-11 02:03:28.250 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:58.207
+!MESSAGE NLS unused message: ProEditorChroma_Reserved in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:58.212
+!MESSAGE NLS unused message: ProEditorChroma_SysPro in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:58.212
+!MESSAGE NLS unused message: ProEditorChroma_SysFunc in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:58.212
+!MESSAGE NLS unused message: ProEditorChroma_UserPro in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:58.213
+!MESSAGE NLS unused message: ProEditorChroma_UserFunc in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:58.213
+!MESSAGE NLS unused message: ProEditorChroma_UserUncomp in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:58.214
+!MESSAGE NLS unused message: ProEditorChroma_String in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:58.214
+!MESSAGE NLS unused message: ProEditorChroma_Comment in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:58.215
+!MESSAGE NLS unused message: ProEditorChroma_Other in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:58.216
+!MESSAGE NLS unused message: ProEditorChroma_Number in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:58.217
+!MESSAGE NLS unused message: ProEditorChroma_StructField in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:58.220
+!MESSAGE NLS unused message: PPC_AutoPasteFormat in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:59.050
+!MESSAGE NLS unused message: DocumentInputStream_error_read in: org.eclipse.ui.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:59.163
+!MESSAGE NLS unused message: FileBuffer_status_ok in: org.eclipse.core.internal.filebuffers.FileBuffersMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:59.375
+!MESSAGE NLS unused message: ToggleDetailPaneAction_6 in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:59.376
+!MESSAGE NLS unused message: ToggleDetailPaneAction_9 in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:59.382
+!MESSAGE NLS unused message: MarkerRulerAction_addMarker in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:59.383
+!MESSAGE NLS unused message: MarkerRulerAction_removeMarkers in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:59.383
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_title in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:59.384
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_message in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:59.385
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_rememberquestion in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY com.perforce.team.core 2 0 2018-08-11 02:03:59.930
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://6.fwk1635639464:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2018-08-11 02:03:59.932
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://6.fwk1635639464:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2018-08-11 02:03:59.932
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2018-08-11 02:03:59.933
+!MESSAGE Using default charset: GBK; JVM charset: GBK
+
+!ENTRY com.perforce.team.core 1 0 2018-08-11 02:03:59.935
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2018-08-11 02:03:59.936
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2018-08-11 02:03:59.937
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2018-08-11 02:03:59.938
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2018-08-11 02:03:59.939
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2018-08-11 02:03:59.939
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:03:59.975
+!MESSAGE NLS unused message: Could_not_provide_children_for_element in: org.eclipse.ui.internal.navigator.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:04:00.158
+!MESSAGE NLS unused message: TextEditorPreferencePage_colorsAndFonts_link_tooltip in: org.eclipse.ui.internal.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-08-11 02:04:00.159
+!MESSAGE NLS unused message: TextEditorPreferencePage_overwriteMode in: org.eclipse.ui.internal.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-08-11 02:04:02.743
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\li199'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-09-06 01:34:17.359 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:27.792
+!MESSAGE NLS unused message: ProEditorChroma_Reserved in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:27.796
+!MESSAGE NLS unused message: ProEditorChroma_SysPro in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:27.797
+!MESSAGE NLS unused message: ProEditorChroma_SysFunc in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:27.798
+!MESSAGE NLS unused message: ProEditorChroma_UserPro in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:27.799
+!MESSAGE NLS unused message: ProEditorChroma_UserFunc in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:27.799
+!MESSAGE NLS unused message: ProEditorChroma_UserUncomp in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:27.800
+!MESSAGE NLS unused message: ProEditorChroma_String in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:27.801
+!MESSAGE NLS unused message: ProEditorChroma_Comment in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:27.802
+!MESSAGE NLS unused message: ProEditorChroma_Other in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:27.802
+!MESSAGE NLS unused message: ProEditorChroma_Number in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:27.803
+!MESSAGE NLS unused message: ProEditorChroma_StructField in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:27.806
+!MESSAGE NLS unused message: PPC_AutoPasteFormat in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:28.726
+!MESSAGE NLS unused message: DocumentInputStream_error_read in: org.eclipse.ui.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:28.840
+!MESSAGE NLS unused message: FileBuffer_status_ok in: org.eclipse.core.internal.filebuffers.FileBuffersMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:29.055
+!MESSAGE NLS unused message: ToggleDetailPaneAction_6 in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:29.056
+!MESSAGE NLS unused message: ToggleDetailPaneAction_9 in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:29.062
+!MESSAGE NLS unused message: MarkerRulerAction_addMarker in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:29.063
+!MESSAGE NLS unused message: MarkerRulerAction_removeMarkers in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:29.063
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_title in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:29.064
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_message in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:29.064
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_rememberquestion in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY com.perforce.team.core 2 0 2018-09-06 01:34:29.635
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://6.fwk1635639464:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2018-09-06 01:34:29.636
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://6.fwk1635639464:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2018-09-06 01:34:29.637
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2018-09-06 01:34:29.638
+!MESSAGE Using default charset: GBK; JVM charset: GBK
+
+!ENTRY com.perforce.team.core 1 0 2018-09-06 01:34:29.639
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2018-09-06 01:34:29.641
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2018-09-06 01:34:29.642
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2018-09-06 01:34:29.642
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2018-09-06 01:34:29.643
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2018-09-06 01:34:29.644
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:29.680
+!MESSAGE NLS unused message: Could_not_provide_children_for_element in: org.eclipse.ui.internal.navigator.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:29.868
+!MESSAGE NLS unused message: TextEditorPreferencePage_colorsAndFonts_link_tooltip in: org.eclipse.ui.internal.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-06 01:34:29.869
+!MESSAGE NLS unused message: TextEditorPreferencePage_overwriteMode in: org.eclipse.ui.internal.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-09-06 01:34:32.756
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\li199'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-09-19 19:42:35.143 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-09-19 19:42:45.002
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:46.134
+!MESSAGE NLS unused message: ProEditorChroma_Reserved in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:46.137
+!MESSAGE NLS unused message: ProEditorChroma_SysPro in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:46.138
+!MESSAGE NLS unused message: ProEditorChroma_SysFunc in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:46.138
+!MESSAGE NLS unused message: ProEditorChroma_UserPro in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:46.139
+!MESSAGE NLS unused message: ProEditorChroma_UserFunc in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:46.139
+!MESSAGE NLS unused message: ProEditorChroma_UserUncomp in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:46.140
+!MESSAGE NLS unused message: ProEditorChroma_String in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:46.141
+!MESSAGE NLS unused message: ProEditorChroma_Comment in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:46.141
+!MESSAGE NLS unused message: ProEditorChroma_Other in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:46.142
+!MESSAGE NLS unused message: ProEditorChroma_Number in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:46.142
+!MESSAGE NLS unused message: ProEditorChroma_StructField in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:46.145
+!MESSAGE NLS unused message: PPC_AutoPasteFormat in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:46.963
+!MESSAGE NLS unused message: DocumentInputStream_error_read in: org.eclipse.ui.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:47.049
+!MESSAGE NLS unused message: FileBuffer_status_ok in: org.eclipse.core.internal.filebuffers.FileBuffersMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:47.245
+!MESSAGE NLS unused message: ToggleDetailPaneAction_6 in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:47.245
+!MESSAGE NLS unused message: ToggleDetailPaneAction_9 in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:47.251
+!MESSAGE NLS unused message: MarkerRulerAction_addMarker in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:47.252
+!MESSAGE NLS unused message: MarkerRulerAction_removeMarkers in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:47.253
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_title in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:47.253
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_message in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:47.254
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_rememberquestion in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY com.perforce.team.core 2 0 2018-09-19 19:42:47.796
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://6.fwk254306201:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2018-09-19 19:42:47.797
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://6.fwk254306201:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2018-09-19 19:42:47.798
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2018-09-19 19:42:47.799
+!MESSAGE Using default charset: GBK; JVM charset: GBK
+
+!ENTRY com.perforce.team.core 1 0 2018-09-19 19:42:47.800
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2018-09-19 19:42:47.802
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2018-09-19 19:42:47.802
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2018-09-19 19:42:47.803
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2018-09-19 19:42:47.804
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2018-09-19 19:42:47.804
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:47.836
+!MESSAGE NLS unused message: Could_not_provide_children_for_element in: org.eclipse.ui.internal.navigator.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:48.019
+!MESSAGE NLS unused message: TextEditorPreferencePage_colorsAndFonts_link_tooltip in: org.eclipse.ui.internal.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-19 19:42:48.020
+!MESSAGE NLS unused message: TextEditorPreferencePage_overwriteMode in: org.eclipse.ui.internal.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-09-19 19:42:50.467
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\li199'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui.workbench 4 2 2018-09-20 19:47:28.338
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.EditorManager.convertToSaveables(EditorManager.java:1383)
+	at org.eclipse.ui.internal.EditorManager.saveAll(EditorManager.java:1197)
+	at org.eclipse.ui.internal.Workbench$19.run(Workbench.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.saveAllEditors(Workbench.java:1163)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1066)
+	at org.eclipse.ui.internal.Workbench.access$15(Workbench.java:1047)
+	at org.eclipse.ui.internal.Workbench$25.run(Workbench.java:1328)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1324)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1312)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1282)
+	at org.eclipse.ui.internal.Workbench$65.handleEvent(Workbench.java:2614)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2746)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2710)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2544)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.jface 4 0 2018-09-20 19:47:28.344
+!MESSAGE 关闭工作台时发生了错误。请参阅错误日志以了解更多详细信息。
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.EditorManager.convertToSaveables(EditorManager.java:1383)
+	at org.eclipse.ui.internal.EditorManager.saveAll(EditorManager.java:1197)
+	at org.eclipse.ui.internal.Workbench$19.run(Workbench.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.saveAllEditors(Workbench.java:1163)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1066)
+	at org.eclipse.ui.internal.Workbench.access$15(Workbench.java:1047)
+	at org.eclipse.ui.internal.Workbench$25.run(Workbench.java:1328)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1324)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1312)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1282)
+	at org.eclipse.ui.internal.Workbench$65.handleEvent(Workbench.java:2614)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2746)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2710)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2544)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui 4 0 2018-09-20 19:47:28.394
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalStateException: The service has been unregistered
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:209)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:3087)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1135)
+	at org.eclipse.ui.internal.Workbench.access$15(Workbench.java:1047)
+	at org.eclipse.ui.internal.Workbench$25.run(Workbench.java:1328)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1324)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1312)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1282)
+	at org.eclipse.ui.internal.Workbench$65.handleEvent(Workbench.java:2614)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2746)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2710)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2544)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SESSION 2018-09-20 21:50:13.904 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:50:26.202
+!MESSAGE NLS unused message: ProEditorChroma_Reserved in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:50:26.212
+!MESSAGE NLS unused message: ProEditorChroma_SysPro in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:50:26.213
+!MESSAGE NLS unused message: ProEditorChroma_SysFunc in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:50:26.214
+!MESSAGE NLS unused message: ProEditorChroma_UserPro in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:50:26.215
+!MESSAGE NLS unused message: ProEditorChroma_UserFunc in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:50:26.216
+!MESSAGE NLS unused message: ProEditorChroma_UserUncomp in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:50:26.217
+!MESSAGE NLS unused message: ProEditorChroma_String in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:50:26.217
+!MESSAGE NLS unused message: ProEditorChroma_Comment in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:50:26.218
+!MESSAGE NLS unused message: ProEditorChroma_Other in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:50:26.219
+!MESSAGE NLS unused message: ProEditorChroma_Number in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:50:26.220
+!MESSAGE NLS unused message: ProEditorChroma_StructField in: com.rsi.idldt.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:50:26.223
+!MESSAGE NLS unused message: PPC_AutoPasteFormat in: com.rsi.idldt.ui.messages
+
+!ENTRY com.perforce.team.core 2 0 2018-09-20 21:50:27.377
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://6.fwk254306201:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2018-09-20 21:50:27.378
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://6.fwk254306201:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2018-09-20 21:50:27.379
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2018-09-20 21:50:27.381
+!MESSAGE Using default charset: GBK; JVM charset: GBK
+
+!ENTRY com.perforce.team.core 1 0 2018-09-20 21:50:27.382
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2018-09-20 21:50:27.384
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2018-09-20 21:50:27.385
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2018-09-20 21:50:27.386
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2018-09-20 21:50:27.387
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2018-09-20 21:50:27.387
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:50:27.431
+!MESSAGE NLS unused message: Could_not_provide_children_for_element in: org.eclipse.ui.internal.navigator.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:50:27.643
+!MESSAGE NLS unused message: ToggleDetailPaneAction_6 in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:50:27.644
+!MESSAGE NLS unused message: ToggleDetailPaneAction_9 in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:50:28.336
+!MESSAGE NLS unused message: TextEditorPreferencePage_colorsAndFonts_link_tooltip in: org.eclipse.ui.internal.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:50:28.338
+!MESSAGE NLS unused message: TextEditorPreferencePage_overwriteMode in: org.eclipse.ui.internal.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-09-20 21:50:30.074
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\li199'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:53:16.851
+!MESSAGE NLS unused message: DocumentInputStream_error_read in: org.eclipse.ui.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:53:16.928
+!MESSAGE NLS unused message: FileBuffer_status_ok in: org.eclipse.core.internal.filebuffers.FileBuffersMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:53:17.095
+!MESSAGE NLS unused message: MarkerRulerAction_addMarker in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:53:17.095
+!MESSAGE NLS unused message: MarkerRulerAction_removeMarkers in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:53:17.096
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_title in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:53:17.097
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_message in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-20 21:53:17.098
+!MESSAGE NLS unused message: AbstractDecoratedTextEditor_revision_quickdiff_switch_rememberquestion in: org.eclipse.ui.texteditor.TextEditorMessages
+
+!ENTRY org.eclipse.ui.workbench 4 0 2018-09-21 23:23:41.889
+!MESSAGE Widget disposed too early for part org.eclipse.debug.ui.VariableView
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.debug.ui.VariableView
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1317)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:742)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1274)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2746)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2710)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2544)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2018-09-21 23:23:41.900
+!MESSAGE Widget disposed too early for part org.eclipse.ui.navigator.ProjectExplorer
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.ui.navigator.ProjectExplorer
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1317)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:742)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1274)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2746)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2710)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2544)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2018-09-21 23:23:41.909
+!MESSAGE Widget disposed too early for part com.rsi.idldt.console.IDLConsoleView
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part com.rsi.idldt.console.IDLConsoleView
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1317)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:742)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1274)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2746)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2710)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2544)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2018-09-21 23:23:41.917
+!MESSAGE Widget disposed too early for part org.eclipse.debug.ui.DebugView
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.debug.ui.DebugView
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1317)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:742)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1274)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2746)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2710)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2544)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2018-09-21 23:23:41.973
+!MESSAGE Widget disposed too early for part org.eclipse.ui.DefaultTextEditor
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.ui.DefaultTextEditor
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1317)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:742)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1274)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2746)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2710)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2544)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2018-09-21 23:23:41.981
+!MESSAGE Widget disposed too early for part org.eclipse.ui.DefaultTextEditor
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.ui.DefaultTextEditor
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1317)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:742)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1274)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2746)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2710)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2544)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2018-09-21 23:23:41.989
+!MESSAGE Widget disposed too early for part com.rsi.idldt.proeditor.ProEditor
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part com.rsi.idldt.proeditor.ProEditor
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1317)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:742)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1274)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2746)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2710)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2544)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2018-09-21 23:23:41.996
+!MESSAGE Widget disposed too early for part com.rsi.idldt.proeditor.ProEditor
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part com.rsi.idldt.proeditor.ProEditor
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1317)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:742)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1274)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2746)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2710)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2544)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2018-09-21 23:23:42.003
+!MESSAGE Widget disposed too early for part com.rsi.idldt.proeditor.ProEditor
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part com.rsi.idldt.proeditor.ProEditor
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1317)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:742)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3804)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3285)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1274)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4339)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3298)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2088)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4985)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3114)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2746)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2710)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2544)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)

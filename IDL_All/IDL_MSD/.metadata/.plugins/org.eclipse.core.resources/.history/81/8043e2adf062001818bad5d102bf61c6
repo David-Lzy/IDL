@@ -1,0 +1,34 @@
+Pro IDL_Bash
+    ;common Basic_data , All_Particle_number,All_Frame_number,interval_of_time_interaval
+    skip_ratio                  =   0.0
+    start_ratio                 =   0.0
+    Real_all_particle_N         =   100000UL
+    All_Particle_number         =   4096L
+    All_Frame_number            =   Real_all_particle_N * (1-skip_ratio)
+    start_point                 =   Real_all_particle_N * start_ratio 
+    useful_length               =   10000L
+
+    time1   =   systime(/seconds)
+        
+        bash_path                   =   file_dirname(routine_filepath('IDL_Bash'))
+        file_path_temp              =   ' '
+        file_path                   =   ' '
+        openr   ,   path_getting    ,   bash_path + '\Bash.txt' , /get_lun 
+          while ~eof(path_getting)  do begin
+            time3   =   systime(/seconds)
+            
+                readf       ,   path_getting  ,   file_path_temp
+                file_path   =   'L:\Data\without_analysis\' + file_path_temp + '\'  
+                IDL_Data_Getting    ,   file_path , All_data , All_Frame_number , All_Particle_number , start_ratio
+                Data_Building       ,   file_path , All_data , All_Frame_number , useful_length , start_ratio
+            
+            time4   =   systime(/seconds)
+            time_spend1  =   ( time4 - time1 )/3600
+            print , file_path_temp ,'done ,and cost ' , time_spend1 , ' hours.'  
+          endwhile
+        free_lun,   path_getting
+        
+    time2       =   systime(/seconds)
+    time_spend2  =   ( time2 - time1 )/3600
+    print , 'All done , and cost '   , time_spend2 , ' hours.'
+End

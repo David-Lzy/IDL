@@ -1,0 +1,30 @@
+Pro Pro_MSD , location , msd_temp , jump_frame , useful_length , boundary_length , half_boundary_length_square
+    msd         =   dblarr(useful_length)
+    data_length =   SIZE(location, /N_ELEMENTS)
+    for time_interval   =   1L  ,   useful_length-1   do begin 
+        i = 0L
+        j = 0L
+        msd_temp =  dblarr(data_length-time_interval)
+
+        while ( j lt (All_Frame_number - time_interval - 1) )  do begin
+            msd_temp[i]   =   (location[j+time_interval]-location[j])^2
+            i = i + 1L
+            j = j + jump_frame
+        endwhile
+
+        msd_with_boundary_consider = where( msd_temp[0:i-1] gt half_boundary_length_square , count )
+        
+        for k = 0L , count - 1L do begin
+            temp2 = msd_with_boundary_consider[k]
+            temp1 = temp2 * jump_frame
+            delta = location[temp1+time_interval] - location[temp1]
+            if delta lt 0 then begin
+                msd_temp[temp2] = (delta + boundary_length)^2
+            endif else begin
+                msd_temp[temp2] = (delta - boundary_length)^2
+            endelse
+        endfor
+
+        msd[time_interval] = mean(msd_temp[0:i-1])
+    endfor 
+End

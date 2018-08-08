@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将资源“IDL_modlify”重命名为“IDL_MSD_D_Alpha_calcylation”" description="重命名资源“IDL_modlify”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/IDL_modlify" name="IDL_MSD_D_Alpha_calcylation" stamp="1537948124240" updateReferences="true"/>
+</session>

@@ -7,16 +7,28 @@ Pro IDL_Integral
         Absolute_path   =   '   '
         file_path_temp  =   '   '
         file_path       =   '   '
+        frame_to_omega  =   (2^0.5)/12.5d
         bash_path       =   file_dirname(routine_filepath('IDL_Integral'))
         openr   ,   path_getting    ,   bash_path + '\file_Bash.txt' , /get_lun
             while   ~eof(path_getting)  do begin
                 readf       ,   path_getting    ,   file_path_temp
-                    file_path       =   'D:\Google Drive\Fast analysis\Data_Analysis\EACF\Formal_Analysis\IDL_Basic_analysis\' + file_path_temp 
+                
+                str_temp1           = strpos(file_path_temp,'\N') + strlen('\N')
+                str_temp2           = strpos(file_path_temp,'\Compare')
+                All_Particle_number = long(strmid(file_path_temp,str_temp1,str_temp2-str_temp1))
+                All_Particle_number = 16384L
+                str_temp1   = strpos(file_path_temp,'\Gamma') + strlen('\Gamma')
+                str_temp2   = strpos(file_path_temp,'\Beta')
+                Gamma_      = long(strmid(file_path_temp,str_temp1,str_temp2-str_temp1))
+
+                Normalized  = (Gamma_^2/(All_Particle_number/2.0))*frame_to_omega
+                
+                    file_path       =   'D:\Google Drive\Fast analysis\Project\Heat_Transport_In_Magnetic_Field\Data\IDL_Basic_analysis\Archived_More_EACF\' + file_path_temp 
                     openr   ,   name_getting    ,   bash_path + '\name_Bash.txt' , /get_lun
-                        for i=0 ,  FILE_LINES(bash_path + '\name_Bash.txt') - 1 do begin     
+                        for i=0 ,  FILE_LINES(bash_path + '\name_Bash.txt') - 1 do begin
                             readf               ,   name_getting  ,   name_temp
                             Absolute_path       =   file_path  + '\' +  name_temp + '.txt'
-                            
+
                             openr   ,   colums_length    ,   Absolute_path , /get_lun
                             test_temp = ''
                             readf   ,   colums_length,   test_temp
@@ -24,10 +36,10 @@ Pro IDL_Integral
                             print   , columns
                             All_data=   dblarr(columns,useful_length)
                             free_lun,   colums_length
-                            
-                            
+                 
+
                             File_Reading        ,   All_data  , Absolute_path , useful_length , columns , time , title
-                            Data_Building       ,   All_data  , Absolute_path , file_path , name_temp , columns , time , title
+                            Data_Building       ,   All_data  , Absolute_path , file_path , name_temp , columns , time , title , Normalized
                         endfor
                 free_lun    ,   name_getting
             endwhile

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将资源“IDL_Integral_Version1.2”重命名为“IDL_modlify”" description="重命名资源“IDL_Integral_Version1.2”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/IDL_Integral_Version1.2" name="IDL_modlify" stamp="1533134933485" updateReferences="true"/>
+</session>

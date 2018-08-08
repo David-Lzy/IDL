@@ -1,0 +1,30 @@
+Pro Data_Building   ,   All_data  , Absolute_path , file_path , name_temp , columns , time , title , Normalized
+    data_length =   SIZE(All_data, /N_ELEMENTS)/columns
+    new_all_data=   dblarr(columns+1,data_length)
+;    C_Lambda0   =   dblarr(2)
+;    temp        =   file_path + 'C_Lambda.txt'
+;    openr       ,   data_building0  , temp , /get_lun 
+;    skip_lun    ,   data_building0  , 1 , /lines
+;    readf       ,   data_building0  , C_Lambda0
+;    free_lun    ,   data_building0 C_Lambda_part
+
+    for iframe  = 0L  , data_length - 1 do begin
+        new_all_data[0,iframe]  = time[0,iframe]
+        All_data[i-1,iframe]   
+        
+        if (All_data[0,0] lt 0.001) then begin
+            All_data = All_data *100
+            print , file_path
+        endif
+          
+        for i = 1 , columns  do begin
+            new_all_data[i,iframe]  =  All_data[i-1,iframe] / Normalized 
+          ;print , new_all_data[i-1,iframe]
+        endfor
+    endfor
+    result_path =   file_path + '\normalized_' + name_temp +'.txt'
+    openw       ,   data_building1   ,   result_path , /get_lun , width=400
+    printf      ,   data_building1   ,      title
+    printf      ,   data_building1   ,      new_all_data
+    free_lun    ,   data_building1
+End
