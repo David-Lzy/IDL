@@ -1,7 +1,7 @@
 Pro Data_Building   ,   All_data    ,  file_path   ,   name_temp , columns , title , frame_to_omega
     compare_times =   Size(All_data[0,0,*], /N_ELEMENTS)
-    star          =   1/frame_to_omega * 300
-    end_          =   1/frame_to_omega * 400
+    star          =   long(1/frame_to_omega * 300)
+    end_          =   long(1/frame_to_omega * 500)
     title         =   STRMID(title,16,100);除去title前面的time    
     average       =   dblarr(columns,compare_times+1)
     Maxium        =   dblarr(columns,compare_times+1)
@@ -25,6 +25,12 @@ Pro Data_Building   ,   All_data    ,  file_path   ,   name_temp , columns , tit
         printf      ,   data_building1   ,      'mean     ' , average[*,0]
         printf      ,   data_building1   ,      'Max      ' , Maxium[*,0]
         printf      ,   data_building1   ,      'Min      ' , Minium[*,0]
+        if columns eq 1  then begin
+            printf      ,   data_building1   ,      'and compare Min ' , min(average[*,*])
+            printf      ,   data_building1   ,      'and compare Max ' , max(average[*,*])
+        endif
+        
+        
         for j=1 , compare_times  do begin
             printf      ,   data_building1   ,      'Compare' + STRTRIM(string(j),2) 
             printf      ,   data_building1   ,      'mean     ' , average[*,j]

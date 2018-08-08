@@ -65,9 +65,9 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IDL_All_Alpha/Sub_Integral.Pro"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="337" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="com.rsi.idldt.proeditor.ProEditor" name="Sub_Leading_Function_Analysis.pro" partName="Sub_Leading_Function_Analysis.pro" path="H:/IDL/IDL_Leading_Function_analysis/test_version/IDL_All_Alpha/Sub_Leading_Function_Analysis.pro" title="Sub_Leading_Function_Analysis.pro" tooltip="IDL_All_Alpha/Sub_Leading_Function_Analysis.pro" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="com.rsi.idldt.proeditor.ProEditor" name="Sub_Leading_Function_Analysis.pro" partName="Sub_Leading_Function_Analysis.pro" path="D:/Data_with_git/IDL/IDL_All/IDL_Leading_Function_analysis/test_version/IDL_All_Alpha/Sub_Leading_Function_Analysis.pro" title="Sub_Leading_Function_Analysis.pro" tooltip="IDL_All_Alpha/Sub_Leading_Function_Analysis.pro" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IDL_All_Alpha/Sub_Leading_Function_Analysis.pro"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="989" selectionTopPixel="39"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="877" selectionTopPixel="0"/>
 </editor>
 <editor id="com.rsi.idldt.proeditor.ProEditor" name="Sub_FFT.pro" partName="Sub_FFT.pro" path="H:/IDL/IDL_Leading_Function_analysis/test_version/IDL_All_Alpha/Sub_FFT.pro" title="Sub_FFT.pro" tooltip="IDL_All_Alpha/Sub_FFT.pro" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IDL_All_Alpha/Sub_FFT.pro"/>
@@ -107,7 +107,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.rsi.idldt.proeditor.ProEditor" activePerspective="com.rsi.idldt.ui.IDLPerspective">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="com.rsi.idldt.ui.IDLPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.rsi.idldt.internal.ui.IDLPerspectiveFactory" id="com.rsi.idldt.ui.IDLPerspective" label="IDL"/>
 <alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.CmdLine"/>
@@ -214,9 +214,6 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_All_Alpha/Sub_Integral.Pro"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_All_Alpha/Sub_FFT.pro"/>
 </editors>
-<item historyLabel="main1.pro" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
 <item historyLabel="main1.pro" index="2">
 <position info="not_deleted" x="116" y="0"/>
 </item>
@@ -360,6 +357,9 @@
 </item>
 <item historyLabel="Sub_Integral.Pro" index="16">
 <position info="not_deleted" x="337" y="0"/>
+</item>
+<item historyLabel="Sub_Leading_Function_Analysis.pro" index="15">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 <item active="true" historyLabel="Sub_Leading_Function_Analysis.pro" index="15">
 <position info="not_deleted" x="0" y="0"/>
