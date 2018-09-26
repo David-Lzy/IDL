@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 mean_C_Lambda
+=======
+mean_C_Lambda
+mean_C_Lambda_part
+>>>>>>> a4bcd58f8ae436c37c018109831a98b765d3c875

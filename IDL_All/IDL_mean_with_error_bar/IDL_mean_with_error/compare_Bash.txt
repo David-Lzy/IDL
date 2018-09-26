@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Beta0.01\N16384\
 Beta0.02\N16384\
 Beta0.04\N16384\
@@ -20,3 +21,12 @@ Beta0.65\N16384\
 Beta0.75\N16384\
 Beta0.85\N16384\
 Beta0.95\N16384\
+=======
+compare0
+compare1
+compare2
+compare3
+compare5
+compare6
+compare7
+>>>>>>> a4bcd58f8ae436c37c018109831a98b765d3c875

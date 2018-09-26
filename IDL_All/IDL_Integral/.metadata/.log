@@ -4936,6 +4936,7 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+<<<<<<< HEAD
 !SESSION 2018-08-09 16:40:52.098 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=1.7.0_25
@@ -6382,3 +6383,5 @@ java.lang.RuntimeException: Widget disposed too early for part com.rsi.idldt.pro
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+=======
+>>>>>>> a4bcd58f8ae436c37c018109831a98b765d3c875

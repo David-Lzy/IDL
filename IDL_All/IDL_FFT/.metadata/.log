@@ -5156,6 +5156,7 @@ Contains: 未能删除：D:\Data_with_git\IDL\IDL_All\IDL_FFT\IDL_Integral_Versi
 !MESSAGE 未能删除：D:\Data_with_git\IDL\IDL_All\IDL_FFT\IDL_Integral_Version1.3\name_Bash.txt。
 !SUBENTRY 4 org.eclipse.core.filesystem 4 273 2018-08-04 05:59:48.150
 !MESSAGE 未能删除：D:\Data_with_git\IDL\IDL_All\IDL_FFT\IDL_Integral_Version1.3。
+<<<<<<< HEAD
 !SESSION 2018-08-15 18:03:37.599 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=1.7.0_25
@@ -6750,3 +6751,5 @@ org.eclipse.core.runtime.AssertionFailedException: unknown saveable: org.eclipse
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+=======
+>>>>>>> a4bcd58f8ae436c37c018109831a98b765d3c875

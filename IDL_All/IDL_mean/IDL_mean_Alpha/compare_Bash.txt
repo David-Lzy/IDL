@@ -2,9 +2,11 @@ compare0
 compare1
 compare2
 compare3
-compare4
 compare5
 compare6
+<<<<<<< HEAD
 compare8
+=======
+>>>>>>> a4bcd58f8ae436c37c018109831a98b765d3c875
 compare7
 compare9
