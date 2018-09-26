@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Kappa2\Gamma300\Beta0.01\N16384\
 Kappa2\Gamma300\Beta0.02\N16384\
 Kappa2\Gamma300\Beta0.04\N16384\
@@ -20,3 +21,6 @@ Kappa2\Gamma300\Beta0.65\N16384\
 Kappa2\Gamma300\Beta0.75\N16384\
 Kappa2\Gamma300\Beta0.85\N16384\
 Kappa2\Gamma300\Beta0.95\N16384\
+=======
+Kappa2\Gamma20\Beta1.0\N16384
+>>>>>>> a4bcd58f8ae436c37c018109831a98b765d3c875
