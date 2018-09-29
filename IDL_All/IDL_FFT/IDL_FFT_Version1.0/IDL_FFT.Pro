@@ -11,11 +11,11 @@ Pro IDL_FFT
         openr   ,   path_getting    ,   bash_path + '\file_Bash.txt' , /get_lun
             while   ~eof(path_getting)  do begin
                 readf       ,   path_getting    ,   file_path_temp
-<<<<<<< HEAD
-                    file_path       =   'D:\Google Drive\Fast analysis\Data_Analysis\EACF\Formal_Analysis\IDL_Basic_analysis\Archived\' + file_path_temp 
-=======
-                    file_path       =   'D:\Google Drive\Fast analysis\Data_Analysis\EACF\Formal_Analysis\IDL_Basic_analysis\' + file_path_temp 
->>>>>>> a4bcd58f8ae436c37c018109831a98b765d3c875
+;<<<<<<< HEAD
+;                    file_path       =   'D:\Google Drive\Fast analysis\Data_Analysis\EACF\Formal_Analysis\IDL_Basic_analysis\Archived\' + file_path_temp 
+;=======
+                    file_path       =   'D:\Google Drive\Fast analysis\Project\Heat_Transport_In_Magnetic_Field\Data\EACF\Archived_More_EACF\' + file_path_temp 
+;>>>>>>> a4bcd58f8ae436c37c018109831a98b765d3c875
                     openr   ,   name_getting    ,   bash_path + '\name_Bash.txt' , /get_lun
                         for i=0 ,  FILE_LINES(bash_path + '\name_Bash.txt') - 1 do begin     
                             readf               ,   name_getting  ,   name_temp
