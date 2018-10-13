@@ -1,2 +1,2 @@
-mean_Normalized_C_Lambda
-mean_Normalized_C_Lambda_part
+Normalized_mean_C_Lambda
+Normalized_mean_C_Lambda_part

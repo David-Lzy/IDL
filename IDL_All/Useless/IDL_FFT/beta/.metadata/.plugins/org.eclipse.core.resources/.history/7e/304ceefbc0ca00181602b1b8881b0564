@@ -1,0 +1,8 @@
+Pro test
+  omega = 0.02
+  x = findgen(100)
+  y = dblarr(100)
+  y = sin(omega*x)
+  a = fft(y)
+  Plot, x, a
+end

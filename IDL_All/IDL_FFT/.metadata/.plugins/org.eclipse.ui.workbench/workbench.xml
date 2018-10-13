@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench version="2.0">
 <workbenchAdvisor/>
-<window height="932" maximized="true" width="1464" x="196" y="56">
+<window height="925" width="1439" x="281" y="69">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.debug.ui.DebugView"/>
 </fastViewData>
@@ -14,7 +14,6 @@
 <coolItem id="com.rsi.idldt.ui.toolbar.debugTools" itemType="typeToolBarContribution" x="478" y="56"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.rsi.idldt.proeditor.ProEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
 <page aggregateWorkingSetId="Aggregate for window 1515669510321" focus="true" label="工作空间 － IDL">
 <editors>
@@ -31,13 +30,13 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.rsi.idldt.proeditor.ProEditor" name="Data_Building.Pro" partName="Data_Building.Pro" path="D:/Data_with_git/IDL/IDL_All/IDL_FFT/IDL_FFT_Version1.0/Data_Building.Pro" title="Data_Building.Pro" tooltip="IDL_FFT_Version1.0/Data_Building.Pro" workbook="DefaultEditorWorkbook">
+<editor id="com.rsi.idldt.proeditor.ProEditor" name="Data_Building.Pro" partName="Data_Building.Pro" path="D:/Data_with_git/IDL/IDL_All/IDL_FFT/IDL_FFT_Version1.0/Data_Building.Pro" title="Data_Building.Pro" tooltip="IDL_FFT_Version1.0/Data_Building.Pro" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IDL_FFT_Version1.0/Data_Building.Pro"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="458" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="564" selectionTopPixel="5"/>
 </editor>
-<editor id="com.rsi.idldt.proeditor.ProEditor" name="File_Reading.Pro" partName="File_Reading.Pro" path="D:/Data_with_git/IDL/IDL_All/IDL_FFT/IDL_FFT_Version1.0/File_Reading.Pro" title="File_Reading.Pro" tooltip="IDL_FFT_Version1.0/File_Reading.Pro" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="com.rsi.idldt.proeditor.ProEditor" name="File_Reading.Pro" partName="File_Reading.Pro" path="D:/Data_with_git/IDL/IDL_All/IDL_FFT/IDL_FFT_Version1.0/File_Reading.Pro" title="File_Reading.Pro" tooltip="IDL_FFT_Version1.0/File_Reading.Pro" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IDL_FFT_Version1.0/File_Reading.Pro"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="560" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="725" selectionTopPixel="0"/>
 </editor>
 <editor id="com.rsi.idldt.proeditor.ProEditor" name="IDL_FFT.Pro" partName="IDL_FFT.Pro" path="D:/Data_with_git/IDL/IDL_All/IDL_FFT/IDL_FFT_Version1.0/IDL_FFT.Pro" title="IDL_FFT.Pro" tooltip="IDL_FFT_Version1.0/IDL_FFT.Pro" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IDL_FFT_Version1.0/IDL_FFT.Pro"/>
@@ -45,7 +44,7 @@
 </editor>
 <editor id="org.eclipse.ui.DefaultTextEditor" name="file_Bash.txt" partName="file_Bash.txt" path="D:/Data_with_git/IDL/IDL_All/IDL_FFT/IDL_FFT_Version1.0/file_Bash.txt" title="file_Bash.txt" tooltip="IDL_FFT_Version1.0/file_Bash.txt" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IDL_FFT_Version1.0/file_Bash.txt"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="33" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.ui.DefaultTextEditor" name="name_Bash.txt" partName="name_Bash.txt" path="D:/Data_with_git/IDL/IDL_All/IDL_FFT/IDL_FFT_Version1.0/name_Bash.txt" title="name_Bash.txt" tooltip="IDL_FFT_Version1.0/name_Bash.txt" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IDL_FFT_Version1.0/name_Bash.txt"/>
@@ -172,7 +171,6 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_Integral_Version1.3/IDL_Integral.Pro"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_Integral_Version1.3/File_Reading.Pro"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_Integral_Version1.3/Data_Building.Pro"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/IDL_Integral_Version1.3/name_Bash.txt"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_Integral_Version1.3/IDL_Integral.Pro"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_Integral_Version1.3/File_Reading.Pro"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/IDL_Integral_Version1.3/file_Bash.txt"/>
@@ -182,43 +180,11 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/IDL_Integral_Version1.3/name_Bash.txt"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/IDL_FFT_Version1.0/file_Bash.txt"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/IDL_FFT_Version1.0/name_Bash.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_FFT_Version1.0/IDL_FFT.Pro"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_FFT_Version1.0/File_Reading.Pro"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/IDL_FFT_Version1.0/file_Bash.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/IDL_FFT_Version1.0/name_Bash.txt"/>
 </editors>
-<item historyLabel="file_Bash.txt" index="0">
-<position/>
-</item>
-<item historyLabel="name_Bash.txt" index="4">
-<position info="not_deleted" x="23" y="0"/>
-</item>
-<item historyLabel="file_Bash.txt" index="0">
-<position info="not_deleted" x="92" y="0"/>
-</item>
-<item historyLabel="IDL_Integral.Pro" index="1">
-<position info="not_deleted" x="273" y="0"/>
-</item>
-<item historyLabel="IDL_Integral.Pro" index="1">
-<position info="not_deleted" x="1611" y="0"/>
-</item>
-<item historyLabel="file_Bash.txt" index="0">
-<position info="not_deleted" x="2459" y="0"/>
-</item>
-<item historyLabel="IDL_Integral.Pro" index="1">
-<position info="not_deleted" x="1962" y="0"/>
-</item>
-<item historyLabel="file_Bash.txt" index="0">
-<position info="not_deleted" x="1680" y="0"/>
-</item>
-<item historyLabel="name_Bash.txt" index="4">
-<position info="not_deleted" x="23" y="0"/>
-</item>
-<item historyLabel="IDL_Integral.Pro" index="1">
-<position info="not_deleted" x="1962" y="0"/>
-</item>
-<item historyLabel="File_Reading.Pro" index="2">
-<position info="not_deleted" x="187" y="0"/>
-</item>
-<item historyLabel="Data_Building.Pro" index="3">
-<position info="not_deleted" x="424" y="0"/>
-</item>
 <item historyLabel="IDL_Integral.Pro" index="1">
 <position info="not_deleted" x="1962" y="0"/>
 </item>
@@ -246,80 +212,116 @@
 <item historyLabel="Data_Building.Pro" index="3">
 <position info="not_deleted" x="713" y="0"/>
 </item>
-<item historyLabel="IDL_Integral.Pro" index="5"/>
-<item historyLabel="File_Reading.Pro" index="6"/>
+<item historyLabel="IDL_Integral.Pro" index="4"/>
+<item historyLabel="File_Reading.Pro" index="5"/>
 <item historyLabel="Data_Building.Pro" index="3"/>
-<item historyLabel="file_Bash.txt" index="7"/>
-<item historyLabel="Data_Building.Pro" index="8">
+<item historyLabel="file_Bash.txt" index="6"/>
+<item historyLabel="Data_Building.Pro" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="File_Reading.Pro" index="9">
+<item historyLabel="File_Reading.Pro" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="IDL_FFT.Pro" index="10">
+<item historyLabel="IDL_FFT.Pro" index="9">
 <position info="not_deleted" x="1455" y="0"/>
 </item>
-<item historyLabel="file_Bash.txt" index="7"/>
-<item historyLabel="IDL_FFT.Pro" index="10">
+<item historyLabel="file_Bash.txt" index="6"/>
+<item historyLabel="IDL_FFT.Pro" index="9">
 <position info="not_deleted" x="1455" y="0"/>
 </item>
-<item historyLabel="name_Bash.txt" index="11"/>
-<item historyLabel="IDL_FFT.Pro" index="10">
+<item historyLabel="name_Bash.txt" index="10"/>
+<item historyLabel="IDL_FFT.Pro" index="9">
 <position info="not_deleted" x="1455" y="0"/>
 </item>
-<item historyLabel="file_Bash.txt" index="12">
+<item historyLabel="file_Bash.txt" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="name_Bash.txt" index="13">
+<item historyLabel="name_Bash.txt" index="12">
 <position info="not_deleted" x="13" y="0"/>
 </item>
-<item historyLabel="Data_Building.Pro" index="8">
+<item historyLabel="Data_Building.Pro" index="7">
 <position info="not_deleted" x="413" y="0"/>
 </item>
-<item historyLabel="IDL_FFT.Pro" index="10">
+<item historyLabel="IDL_FFT.Pro" index="9">
 <position info="not_deleted" x="1455" y="0"/>
 </item>
-<item historyLabel="File_Reading.Pro" index="9">
+<item historyLabel="File_Reading.Pro" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Data_Building.Pro" index="8">
+<item historyLabel="Data_Building.Pro" index="7">
 <position info="not_deleted" x="413" y="0"/>
 </item>
-<item historyLabel="IDL_FFT.Pro" index="10">
+<item historyLabel="IDL_FFT.Pro" index="9">
 <position info="not_deleted" x="1455" y="0"/>
 </item>
-<item historyLabel="file_Bash.txt" index="12">
+<item historyLabel="file_Bash.txt" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="name_Bash.txt" index="13">
+<item historyLabel="name_Bash.txt" index="12">
 <position info="not_deleted" x="12" y="2"/>
 </item>
-<item historyLabel="Data_Building.Pro" index="8">
+<item historyLabel="Data_Building.Pro" index="7">
 <position info="not_deleted" x="988" y="0"/>
 </item>
-<item historyLabel="File_Reading.Pro" index="9">
+<item historyLabel="File_Reading.Pro" index="8">
 <position info="not_deleted" x="560" y="0"/>
 </item>
-<item historyLabel="IDL_FFT.Pro" index="10">
+<item historyLabel="IDL_FFT.Pro" index="9">
 <position info="not_deleted" x="1455" y="0"/>
 </item>
-<item historyLabel="Data_Building.Pro" index="8">
+<item historyLabel="Data_Building.Pro" index="7">
 <position info="not_deleted" x="988" y="0"/>
 </item>
-<item historyLabel="File_Reading.Pro" index="9">
+<item historyLabel="File_Reading.Pro" index="8">
 <position info="not_deleted" x="560" y="0"/>
 </item>
-<item historyLabel="Data_Building.Pro" index="8">
+<item historyLabel="Data_Building.Pro" index="7">
 <position info="not_deleted" x="988" y="0"/>
 </item>
-<item historyLabel="IDL_FFT.Pro" index="10">
+<item historyLabel="IDL_FFT.Pro" index="9">
 <position info="not_deleted" x="1455" y="0"/>
 </item>
-<item historyLabel="File_Reading.Pro" index="9">
+<item historyLabel="File_Reading.Pro" index="8">
 <position info="not_deleted" x="560" y="0"/>
 </item>
-<item active="true" historyLabel="Data_Building.Pro" index="8">
+<item historyLabel="Data_Building.Pro" index="7">
 <position info="not_deleted" x="988" y="0"/>
+</item>
+<item historyLabel="IDL_FFT.Pro" index="13">
+<position info="not_deleted" x="1455" y="0"/>
+</item>
+<item historyLabel="File_Reading.Pro" index="14">
+<position info="not_deleted" x="560" y="0"/>
+</item>
+<item historyLabel="Data_Building.Pro" index="7">
+<position info="not_deleted" x="628" y="0"/>
+</item>
+<item historyLabel="file_Bash.txt" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="name_Bash.txt" index="16">
+<position info="not_deleted" x="12" y="2"/>
+</item>
+<item historyLabel="Data_Building.Pro" index="7">
+<position info="not_deleted" x="638" y="0"/>
+</item>
+<item historyLabel="name_Bash.txt" index="16">
+<position info="not_deleted" x="12" y="2"/>
+</item>
+<item historyLabel="file_Bash.txt" index="15">
+<position info="not_deleted" x="33" y="0"/>
+</item>
+<item historyLabel="Data_Building.Pro" index="7">
+<position info="not_deleted" x="590" y="0"/>
+</item>
+<item historyLabel="File_Reading.Pro" index="14">
+<position info="not_deleted" x="725" y="0"/>
+</item>
+<item historyLabel="Data_Building.Pro" index="7">
+<position info="not_deleted" x="564" y="10"/>
+</item>
+<item active="true" historyLabel="File_Reading.Pro" index="14">
+<position info="not_deleted" x="725" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

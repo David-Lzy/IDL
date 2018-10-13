@@ -23,7 +23,7 @@ Pro IDL_Integral
 
                 Normalized  = (Gamma_^2/(All_Particle_number/2.0))*frame_to_omega
                 
-                    file_path       =   'D:\Google Drive\Fast analysis\Project\Heat_Transport_In_Magnetic_Field\Data\IDL_Basic_analysis\Archived_More_EACF\' + file_path_temp 
+                    file_path       =   'D:\Google Drive\Fast analysis\Project\Heat_Transport_In_Magnetic_Field\Data\EACF\Archived_Origin_EACF\' + file_path_temp 
                     openr   ,   name_getting    ,   bash_path + '\name_Bash.txt' , /get_lun
                         for i=0 ,  FILE_LINES(bash_path + '\name_Bash.txt') - 1 do begin
                             readf               ,   name_getting  ,   name_temp

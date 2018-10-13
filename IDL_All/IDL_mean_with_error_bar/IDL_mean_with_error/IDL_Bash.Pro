@@ -10,7 +10,7 @@ Pro IDL_Bash
         file_path       =   ''
         test_temp       =   ''
         bash_path       =   file_dirname(routine_filepath('IDL_Bash'))
-        data_location   =   'D:\Google Drive\Fast analysis\Project\Heat_Transport_In_Magnetic_Field\Data\IDL_Basic_analysis\Archived_More_EACF\'
+        data_location   =   'D:\Google Drive\Fast analysis\Project\Heat_Transport_In_Magnetic_Field\Data\EACF\Archived_Origin_EACF\'
         
         
         
@@ -49,8 +49,8 @@ Pro IDL_Bash
                     endfor
                     free_lun  , compare_getting
                     ;Data_Building  ,   All_data , file_path , name_temp , columns , title , frame_to_omega
-                    ;Data_Building2  ,   All_data , file_path , name_temp , columns , title , frame_to_omega , comapre_str , file_path_temp
-                    Data_Building3  ,   All_data , file_path , name_temp , columns , title , frame_to_omega , comapre_str , file_path_temp
+                    Data_Building2  ,   All_data , file_path , name_temp , columns , title , frame_to_omega , comapre_str , file_path_temp
+                    ;Data_Building3  ,   All_data , file_path , name_temp , columns , title , frame_to_omega , comapre_str , file_path_temp
                 endfor
                 free_lun  , name_getting
         endwhile

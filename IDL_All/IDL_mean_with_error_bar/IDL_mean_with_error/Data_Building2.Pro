@@ -10,8 +10,8 @@ Pro Data_Building2   ,   All_data    ,  file_path   ,   name_temp , columns , ti
     for i = 0 ,   columns-1  do begin
         for j=0 , compare_times-1  do begin
           average[i,j]     = mean(All_data[i,star:end_,j])
-          Maxium[i,j]      =  max(All_data[i,star:end_,j])
-          Minium[i,j]      =  min(All_data[i,star:end_,j])
+;          Maxium[i,j]      =  max(All_data[i,star:end_,j])
+;          Minium[i,j]      =  min(All_data[i,star:end_,j])
         endfor
     endfor
     
@@ -26,18 +26,19 @@ Pro Data_Building2   ,   All_data    ,  file_path   ,   name_temp , columns , ti
     
     
     openw       ,   data_building1   ,   analysis_path , /get_lun , width=400
-    printf      ,   data_building1   ,      '物理条件为：' + STRTRIM(string(Gamma_),2) + '     mean' + '      Max' + '      Min'
-    for i = 0 ,   columns-1  do begin
+    printf      ,   data_building1   ,      '物理条件为：' + STRTRIM(string(Gamma_),2) ;+ '     mean' + '      Max' + '      Min'
+    ;for i = 0 ,   columns-1  do begin
         printf , data_building1 , 'the ' + STRTRIM(string(i),2) + ' one:'
+        printf , data_building1 , title
         for j=0 , compare_times-1  do begin
                  
           str_temp1   = strpos(comapre_str[j],'\Beta') + strlen('\Beta')
           str_temp2   = strpos(comapre_str[j],'\N')
           Beta        = strmid(comapre_str[j],str_temp1,str_temp2-str_temp1)          
-          
-          printf , data_building1 , STRTRIM(Beta,2) , average[i,j] , Maxium[i,j] , Minium[i,j]
+          average[3,j] = total(average[3:5,j])
+          printf , data_building1 , STRTRIM(Beta,2) , average[0:3,j]
         endfor
-    endfor
+    ;endfor
     
     free_lun    ,   data_building1
 End    

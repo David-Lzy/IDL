@@ -1,0 +1,7 @@
+Pro test
+  x = bindgen(100)
+  y = dblarr(100)
+  omega = 0.02
+  y = sin(omega*x)
+  a = fft(y)
+  Plot, x, y

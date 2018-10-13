@@ -8,13 +8,13 @@ Pro Data_Building   ,   All_data    ,     Absolute_path , file_path , name_temp 
         Integral[i,iframe]  =  total(All_data[i-1,0:iframe])  
       endfor 
     endfor
-<<<<<<< HEAD
-
-    ;Integral[1:*,*] = Integral[1:*,*] *100L;修复上次Gamma获取少了10倍的错误，用完记得备注掉
-=======
-    
-    Integral[1:*,*] = Integral[1:*,*] *100L;修复上次Gamma获取少了10倍的错误，用完记得备注掉
->>>>>>> a4bcd58f8ae436c37c018109831a98b765d3c875
+;<<<<<<< HEAD
+;
+;    ;Integral[1:*,*] = Integral[1:*,*] *100L;修复上次Gamma获取少了10倍的错误，用完记得备注掉
+;=======
+;    
+;    Integral[1:*,*] = Integral[1:*,*] *100L;修复上次Gamma获取少了10倍的错误，用完记得备注掉
+;>>>>>>> a4bcd58f8ae436c37c018109831a98b765d3c875
    
     
     result_path =   file_path  +  '\'  +  'Integral_'  +  name_temp  + '.txt'

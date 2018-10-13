@@ -1,0 +1,12 @@
+Pro test
+  omega = 1
+  length = 100
+  x = findgen(length)
+  y = dblarr(length)
+  y = sin(omega*x)
+  a = abs(fft(y))
+  b = a[0:0.5*length]
+  location = mean(where(b ge (0.9*max(b)))) 
+  Plot, x, a
+  print , b
+end

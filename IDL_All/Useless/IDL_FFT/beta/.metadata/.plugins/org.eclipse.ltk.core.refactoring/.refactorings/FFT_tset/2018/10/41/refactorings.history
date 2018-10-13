@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将资源“FFT_tset/main.pro”重命名为“test.pro”" description="重命名资源“main.pro”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="main.pro" name="test.pro" stamp="1538978936997" updateReferences="true"/>
+</session>
