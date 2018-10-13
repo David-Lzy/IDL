@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<workbenchAdvisor/>
+<window height="1056" width="1924" x="-8" y="-8">
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.eclipse.debug.ui.DebugView"/>
+</fastViewData>
+<perspectiveBar>
+<itemSize x="0"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="203" y="40"/>
+<coolItem id="com.rsi.idldt.ui.textedit.toolbar" itemType="typeToolBarContribution" x="260" y="40"/>
+<coolItem id="com.rsi.idldt.ui.toolbar.debugTools" itemType="typeToolBarContribution" x="410" y="40"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1515669510321" focus="true" label="工作空间 － IDL">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="Bash.txt" partName="Bash.txt" path="F:/IDL_Program/EACF_with_J_all/WorkSpace1/IDL_EACF_J_all Version 1.0/Bash.txt" title="Bash.txt" tooltip="IDL_EACF_J_all Version 1.0/Bash.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IDL_EACF_J_all Version 1.0/Bash.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="38" selectionTopPixel="0"/>
+</editor>
+<editor id="com.rsi.idldt.proeditor.ProEditor" name="Autocorrelation_function.Pro" partName="Autocorrelation_function.Pro" path="F:/IDL_Program/EACF_with_J_all/WorkSpace1/IDL_EACF_J_all Version 1.0/Autocorrelation_function.Pro" title="Autocorrelation_function.Pro" tooltip="IDL_EACF_J_all Version 1.0/Autocorrelation_function.Pro" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IDL_EACF_J_all Version 1.0/Autocorrelation_function.Pro"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="582" selectionTopPixel="0"/>
+</editor>
+<editor id="com.rsi.idldt.proeditor.ProEditor" name="IDL_Data_Building.Pro" partName="IDL_Data_Building.Pro" path="F:/IDL_Program/EACF_with_J_all/WorkSpace1/IDL_EACF_J_all Version 1.0/IDL_Data_Building.Pro" title="IDL_Data_Building.Pro" tooltip="IDL_EACF_J_all Version 1.0/IDL_Data_Building.Pro" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IDL_EACF_J_all Version 1.0/IDL_Data_Building.Pro"/>
+<editorState selectionHorizontalPixel="0" selectionLength="130" selectionOffset="715" selectionTopPixel="0"/>
+</editor>
+<editor id="com.rsi.idldt.proeditor.ProEditor" name="IDL_Data_Getting.Pro" partName="IDL_Data_Getting.Pro" path="F:/IDL_Program/EACF_with_J_all/WorkSpace1/IDL_EACF_J_all Version 1.0/IDL_Data_Getting.Pro" title="IDL_Data_Getting.Pro" tooltip="IDL_EACF_J_all Version 1.0/IDL_Data_Getting.Pro" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IDL_EACF_J_all Version 1.0/IDL_Data_Getting.Pro"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4451" selectionTopPixel="1010"/>
+</editor>
+<editor activePart="true" focus="true" id="com.rsi.idldt.proeditor.ProEditor" name="IDL_Bash.Pro" partName="IDL_Bash.Pro" path="F:/IDL_Program/EACF_with_J_all/WorkSpace1/IDL_EACF_J_all Version 1.0/IDL_Bash.Pro" title="IDL_Bash.Pro" tooltip="IDL_EACF_J_all Version 1.0/IDL_Bash.Pro" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IDL_EACF_J_all Version 1.0/IDL_Bash.Pro"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3200" selectionTopPixel="900"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="项目资源管理器">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="com.rsi.idldt.ui.views.CommandHistoryView" partName="历史命令">
+<viewState columnWidth0="200" grp206="1" showTreeView="1" sortColumn="1" sortDirection="128"/>
+</view>
+<view id="com.rsi.idldt.console.IDLConsoleView" partName="IDL控制台">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="调试">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="问题">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="问题">
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="变量查看器">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="大纲">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="com.rsi.idldt.proeditor.ProEditor" activePerspective="com.rsi.idldt.ui.IDLPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.rsi.idldt.internal.ui.IDLPerspectiveFactory" id="com.rsi.idldt.ui.IDLPerspective" label="IDL"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.CmdLine"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Run"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Wizard"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Help"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.MacroActionSet"/>
+<alwaysOnActionSet id="com.rsi.idldt.tasks.actionSets.Wizard"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.CodingActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.rsi.idldt.console.IDLConsoleView"/>
+<view id="com.rsi.idldt.ui.views.CommandHistoryView"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<fastViews>
+<view id="org.eclipse.debug.ui.DebugView" ratio="0.29960316"/>
+</fastViews>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="项目资源管理器"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="大纲"/>
+<page content="org.eclipse.debug.ui.VariableView" label="变量查看器"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="com.rsi.idldt.HierarchyView" ratio="0.6994048" ratioLeft="705" ratioRight="303" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.7116992" ratioLeft="511" ratioRight="207" relationship="4" relative="left">
+<folder activePageID="com.rsi.idldt.console.IDLConsoleView" appearance="2" expanded="2">
+<page content="com.rsi.idldt.console.IDLConsoleView" label="IDL控制台"/>
+<page content="com.rsi.idldt.ui.views.CommandHistoryView" label="历史命令"/>
+<page content="org.eclipse.ui.views.ProblemView" label="问题"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
+<page content="*" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.17745803" ratioLeft="222" ratioRight="1029" relationship="2" relative="left"/>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/IDL_EACF_J_all Version 1.0/Bash.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_EACF_J_all Version 1.0/Autocorrelation_function.Pro"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_EACF_J_all Version 1.0/IDL_Data_Getting.Pro"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/IDL_EACF_J_all Version 1.0/Bash.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_EACF_J_all Version 1.0/Autocorrelation_function.Pro"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_EACF_J_all Version 1.0/IDL_Data_Building.Pro"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_EACF_J_all Version 1.0/IDL_Bash.Pro"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_EACF_J_all Version 1.0/Autocorrelation_function.Pro"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_EACF_J_all Version 1.0/IDL_Data_Building.Pro"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/IDL_EACF_J_all Version 1.0/IDL_Data_Getting.Pro"/>
+</editors>
+<item historyLabel="Autocorrelation_function.Pro" index="1">
+<position info="not_deleted" x="582" y="0"/>
+</item>
+<item historyLabel="Bash.txt" index="0">
+<position info="not_deleted" x="133" y="7"/>
+</item>
+<item historyLabel="IDL_Data_Getting.Pro" index="2">
+<position info="not_deleted" x="5465" y="0"/>
+</item>
+<item historyLabel="Bash.txt" index="3">
+<position info="not_deleted" x="38" y="0"/>
+</item>
+<item historyLabel="Autocorrelation_function.Pro" index="4">
+<position info="not_deleted" x="582" y="0"/>
+</item>
+<item historyLabel="IDL_Data_Building.Pro" index="5">
+<position info="not_deleted" x="265" y="0"/>
+</item>
+<item historyLabel="IDL_Data_Getting.Pro" index="2">
+<position info="not_deleted" x="5464" y="0"/>
+</item>
+<item historyLabel="IDL_Bash.Pro" index="6">
+<position info="not_deleted" x="3472" y="0"/>
+</item>
+<item historyLabel="IDL_Data_Getting.Pro" index="2">
+<position info="not_deleted" x="176" y="0"/>
+</item>
+<item historyLabel="IDL_Bash.Pro" index="6">
+<position info="not_deleted" x="3472" y="0"/>
+</item>
+<item historyLabel="IDL_Data_Getting.Pro" index="2">
+<position info="not_deleted" x="217" y="19"/>
+</item>
+<item historyLabel="IDL_Bash.Pro" index="6">
+<position info="not_deleted" x="2163" y="19"/>
+</item>
+<item historyLabel="Bash.txt" index="3">
+<position info="not_deleted" x="38" y="0"/>
+</item>
+<item historyLabel="IDL_Bash.Pro" index="6">
+<position info="not_deleted" x="1887" y="0"/>
+</item>
+<item historyLabel="IDL_Data_Getting.Pro" index="2">
+<position info="not_deleted" x="176" y="0"/>
+</item>
+<item historyLabel="IDL_Bash.Pro" index="6">
+<position info="not_deleted" x="1797" y="14"/>
+</item>
+<item historyLabel="Bash.txt" index="3">
+<position info="not_deleted" x="38" y="0"/>
+</item>
+<item historyLabel="IDL_Bash.Pro" index="6">
+<position info="not_deleted" x="1797" y="14"/>
+</item>
+<item historyLabel="Bash.txt" index="3">
+<position info="not_deleted" x="38" y="0"/>
+</item>
+<item historyLabel="IDL_Bash.Pro" index="6">
+<position info="not_deleted" x="1797" y="14"/>
+</item>
+<item historyLabel="IDL_Data_Getting.Pro" index="2">
+<position info="not_deleted" x="1156" y="0"/>
+</item>
+<item historyLabel="IDL_Bash.Pro" index="6">
+<position info="not_deleted" x="3222" y="0"/>
+</item>
+<item historyLabel="IDL_Data_Getting.Pro" index="2">
+<position info="not_deleted" x="1156" y="0"/>
+</item>
+<item historyLabel="Autocorrelation_function.Pro" index="4">
+<position info="not_deleted" x="582" y="0"/>
+</item>
+<item historyLabel="IDL_Bash.Pro" index="6">
+<position info="not_deleted" x="3222" y="0"/>
+</item>
+<item historyLabel="IDL_Data_Getting.Pro" index="2">
+<position info="not_deleted" x="3306" y="0"/>
+</item>
+<item historyLabel="IDL_Bash.Pro" index="6">
+<position info="not_deleted" x="3222" y="0"/>
+</item>
+<item historyLabel="IDL_Data_Getting.Pro" index="2">
+<position info="not_deleted" x="3399" y="0"/>
+</item>
+<item historyLabel="IDL_Bash.Pro" index="6">
+<position info="not_deleted" x="3222" y="0"/>
+</item>
+<item historyLabel="IDL_Data_Getting.Pro" index="2">
+<position info="not_deleted" x="3184" y="0"/>
+</item>
+<item historyLabel="IDL_Bash.Pro" index="6">
+<position info="not_deleted" x="3222" y="0"/>
+</item>
+<item historyLabel="IDL_Data_Getting.Pro" index="2">
+<position info="not_deleted" x="3306" y="0"/>
+</item>
+<item historyLabel="IDL_Bash.Pro" index="6">
+<position info="not_deleted" x="3222" y="0"/>
+</item>
+<item historyLabel="IDL_Data_Getting.Pro" index="2">
+<position info="not_deleted" x="3306" y="0"/>
+</item>
+<item historyLabel="IDL_Data_Getting.Pro" index="2">
+<position info="not_deleted" x="973" y="0"/>
+</item>
+<item historyLabel="IDL_Data_Getting.Pro" index="2">
+<position info="not_deleted" x="4451" y="0"/>
+</item>
+<item historyLabel="IDL_Bash.Pro" index="6">
+<position info="not_deleted" x="3222" y="0"/>
+</item>
+<item historyLabel="IDL_Bash.Pro" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Autocorrelation_function.Pro" index="7">
+<position info="not_deleted" x="582" y="0"/>
+</item>
+<item historyLabel="IDL_Data_Building.Pro" index="8">
+<position info="not_deleted" x="265" y="0"/>
+</item>
+<item historyLabel="IDL_Data_Getting.Pro" index="9">
+<position info="not_deleted" x="4451" y="0"/>
+</item>
+<item historyLabel="IDL_Bash.Pro" index="6">
+<position info="not_deleted" x="3519" y="0"/>
+</item>
+<item historyLabel="IDL_Data_Building.Pro" index="8">
+<position info="not_deleted" x="265" y="0"/>
+</item>
+<item historyLabel="Autocorrelation_function.Pro" index="7">
+<position info="not_deleted" x="582" y="0"/>
+</item>
+<item historyLabel="IDL_Data_Building.Pro" index="8">
+<position info="not_deleted" x="265" y="0"/>
+</item>
+<item historyLabel="Autocorrelation_function.Pro" index="7">
+<position info="not_deleted" x="582" y="0"/>
+</item>
+<item historyLabel="IDL_Data_Building.Pro" index="8">
+<position info="not_deleted" x="762" y="0"/>
+</item>
+<item historyLabel="Autocorrelation_function.Pro" index="7">
+<position info="not_deleted" x="582" y="0"/>
+</item>
+<item historyLabel="IDL_Data_Building.Pro" index="8">
+<position info="not_deleted" x="715" y="130"/>
+</item>
+<item active="true" historyLabel="IDL_Bash.Pro" index="6">
+<position info="not_deleted" x="3519" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.HeapStatus"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="IDL_Bash.Pro" tooltip="IDL_SACF Version 2.7/IDL_Bash.Pro">
+<persistable path="/IDL_SACF Version 2.7/IDL_Bash.Pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="IDL_Data_Getting.Pro" tooltip="IDL_SACF Version 2.7/IDL_Data_Getting.Pro">
+<persistable path="/IDL_SACF Version 2.7/IDL_Data_Getting.Pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="IDL_Data_Building.Pro" tooltip="IDL_SACF Version 2.7/IDL_Data_Building.Pro">
+<persistable path="/IDL_SACF Version 2.7/IDL_Data_Building.Pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="Autocorrelation_function.Pro" tooltip="IDL_SACF Version 2.7/Autocorrelation_function.Pro">
+<persistable path="/IDL_SACF Version 2.7/Autocorrelation_function.Pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="IDL_Bash.Pro" tooltip="IDL_SACF Version 2.6/IDL_Bash.Pro">
+<persistable path="/IDL_SACF Version 2.6/IDL_Bash.Pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="IDL_Data_Getting.Pro" tooltip="IDL_SACF Version 2.6/IDL_Data_Getting.Pro">
+<persistable path="/IDL_SACF Version 2.6/IDL_Data_Getting.Pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="IDL_Data_Building.Pro" tooltip="IDL_SACF Version 2.6/IDL_Data_Building.Pro">
+<persistable path="/IDL_SACF Version 2.6/IDL_Data_Building.Pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="Autocorrelation_function.Pro" tooltip="IDL_SACF Version 2.6/Autocorrelation_function.Pro">
+<persistable path="/IDL_SACF Version 2.6/Autocorrelation_function.Pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Bash.txt" tooltip="IDL_SACF Version 2.6/Bash.txt">
+<persistable path="/IDL_SACF Version 2.6/Bash.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="IDL_Data_Getting.Pro" tooltip="IDL_SACF Version 2.5/IDL_Data_Getting.Pro">
+<persistable path="/IDL_SACF Version 2.5/IDL_Data_Getting.Pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="IDL_Data_Building.Pro" tooltip="IDL_SACF Version 2.5/IDL_Data_Building.Pro">
+<persistable path="/IDL_SACF Version 2.5/IDL_Data_Building.Pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="IDL_Bash.Pro" tooltip="IDL_SACF Version 2.5/IDL_Bash.Pro">
+<persistable path="/IDL_SACF Version 2.5/IDL_Bash.Pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="Autocorrelation_function.Pro" tooltip="IDL_SACF Version 2.5/Autocorrelation_function.Pro">
+<persistable path="/IDL_SACF Version 2.5/Autocorrelation_function.Pro"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="displamen_fusion.pro" tooltip="C:\Users\DPMD1\Desktop\displamen_fusion.pro">
+<persistable uri="file:/C:/Users/DPMD1/Desktop/displamen_fusion.pro"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="xyliangfangxiang.pro" tooltip="C:\Users\DPMD1\Desktop\xyliangfangxiang.pro">
+<persistable uri="file:/C:/Users/DPMD1/Desktop/xyliangfangxiang.pro"/>
+</file>
+</mruList>
+</workbench>

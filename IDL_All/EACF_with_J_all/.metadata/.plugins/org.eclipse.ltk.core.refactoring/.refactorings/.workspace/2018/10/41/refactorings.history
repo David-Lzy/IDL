@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将资源“IDL_SACF Version 2.7”重命名为“IDL_EACF_J_all Version 1.0”" description="重命名资源“IDL_SACF Version 2.7”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/IDL_SACF Version 2.7" name="IDL_EACF_J_all Version 1.0" stamp="1539090124406" updateReferences="true"/>
+</session>
